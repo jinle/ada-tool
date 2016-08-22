@@ -1,0 +1,29 @@
+
+01-01 08:02:39.190  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8797): avc: denied { open } for path="/proc/365/status" dev="proc" ino=24812 scontext=u:r:system_app:s0 tcontext=u:r:em_svr:s0 tclass=file permissive=1
+01-01 08:02:49.120  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8803): avc: denied { search } for name="300" dev="proc" ino=1056 scontext=u:r:system_app:s0 tcontext=u:r:ccci_mdinit:s0 tclass=dir permissive=1
+01-01 08:02:49.120  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8804): avc: denied { read } for name="status" dev="proc" ino=9526 scontext=u:r:system_app:s0 tcontext=u:r:healthd:s0 tclass=file permissive=1
+01-01 08:02:49.120  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8805): avc: denied { open } for path="/proc/302/status" dev="proc" ino=9526 scontext=u:r:system_app:s0 tcontext=u:r:healthd:s0 tclass=file permissive=1
+01-01 08:02:49.120  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8806): avc: denied { read } for name="status" dev="proc" ino=24764 scontext=u:r:system_app:s0 tcontext=u:r:lmkd:s0 tclass=file permissive=1
+01-01 08:02:49.120  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8807): avc: denied { open } for path="/proc/303/status" dev="proc" ino=24764 scontext=u:r:system_app:s0 tcontext=u:r:lmkd:s0 tclass=file permissive=1
+01-01 08:02:49.120  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8807): avc: denied { open } for path="/proc/303/status" dev="proc" ino=24764 scontext=u:r:system_app:s0 tcontext=u:r:lmkd:s0 tclass=file permissive=1
+01-01 08:02:49.130  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8808): avc: denied { search } for name="304" dev="proc" ino=555 scontext=u:r:system_app:s0 tcontext=u:r:servicemanager:s0 tclass=dir permissive=1
+01-01 08:02:49.130  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8809): avc: denied { read } for name="status" dev="proc" ino=24765 scontext=u:r:system_app:s0 tcontext=u:r:servicemanager:s0 tclass=file permissive=1
+01-01 08:02:49.130  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8810): avc: denied { open } for path="/proc/304/status" dev="proc" ino=24765 scontext=u:r:system_app:s0 tcontext=u:r:servicemanager:s0 tclass=file permissive=1
+01-01 08:02:49.130  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8811): avc: denied { search } for name="305" dev="proc" ino=560 scontext=u:r:system_app:s0 tcontext=u:r:surfaceflinger:s0 tclass=dir permissive=1
+01-01 08:02:49.130  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8813): avc: denied { open } for path="/proc/305/status" dev="proc" ino=24766 scontext=u:r:system_app:s0 tcontext=u:r:surfaceflinger:s0 tclass=file permissive=1
+01-01 08:02:49.130  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8812): avc: denied { read } for name="status" dev="proc" ino=24766 scontext=u:r:system_app:s0 tcontext=u:r:surfaceflinger:s0 tclass=file permissive=1
+01-01 08:02:49.130  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8813): avc: denied { open } for path="/proc/305/status" dev="proc" ino=24766 scontext=u:r:system_app:s0 tcontext=u:r:surfaceflinger:s0 tclass=file permissive=1
+01-01 08:02:49.130  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8813): avc: denied { open } for path="/proc/305/status" dev="proc" ino=24766 scontext=u:r:system_app:s0 tcontext=u:r:surfaceflinger:s0 tclass=file permissive=1
+01-01 08:02:49.170  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8814): avc: denied { read } for name="status" dev="proc" ino=24815 scontext=u:r:system_app:s0 tcontext=u:r:st480:s0 tclass=file permissive=1
+01-01 08:02:49.170  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8815): avc: denied { open } for path="/proc/371/status" dev="proc" ino=24815 scontext=u:r:system_app:s0 tcontext=u:r:st480:s0 tclass=file permissive=1
+01-01 08:02:49.190  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8816): avc: denied { search } for name="1388" dev="proc" ino=14446 scontext=u:r:system_app:s0 tcontext=u:r:su:s0 tclass=dir permissive=1
+01-01 08:02:49.190  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8817): avc: denied { read } for name="status" dev="proc" ino=24834 scontext=u:r:system_app:s0 tcontext=u:r:su:s0 tclass=file permissive=1
+01-01 08:02:49.190  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8818): avc: denied { open } for path="/proc/1388/status" dev="proc" ino=24834 scontext=u:r:system_app:s0 tcontext=u:r:su:s0 tclass=file permissive=1
+01-01 08:03:09.140  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8819): avc: denied { read } for name="status" dev="proc" ino=24763 scontext=u:r:system_app:s0 tcontext=u:r:ccci_mdinit:s0 tclass=file permissive=1
+01-01 08:03:09.140  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8820): avc: denied { open } for path="/proc/300/status" dev="proc" ino=24763 scontext=u:r:system_app:s0 tcontext=u:r:ccci_mdinit:s0 tclass=file permissive=1
+01-01 08:03:09.140  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8821): avc: denied { search } for name="302" dev="proc" ino=1042 scontext=u:r:system_app:s0 tcontext=u:r:healthd:s0 tclass=dir permissive=1
+01-01 08:03:09.150  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8822): avc: denied { search } for name="303" dev="proc" ino=1050 scontext=u:r:system_app:s0 tcontext=u:r:lmkd:s0 tclass=dir permissive=1
+
+01-01 08:03:09.140  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8820): avc: denied { open } for path="/proc/300/status" dev="proc" ino=24763 scontext=u:r:init:s0 tcontext=u:r:ccci_mdinit:s0 tclass=file permissive=1
+01-01 08:03:09.140  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8821): avc: denied { search } for name="302" dev="proc" ino=1042 scontext=u:r:init:s0 tcontext=u:r:healthd:s0 tclass=dir permissive=1
+01-01 08:03:09.150  1458  1458 I coolsafe:remote: type=1400 audit(0.0:8822): avc: denied { search } for name="303" dev="proc" ino=1050 scontext=u:r:init:s0 tcontext=u:r:lmkd:s0 tclass=dir permissive=1
