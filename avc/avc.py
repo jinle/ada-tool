@@ -66,7 +66,7 @@ class AvcCore():
             print("# %s.te" % (skey,))
             for tckey in sorted(sitem.keys()):
                 tcontext, tclass = tckey
-                print("allow %s %s:%s {%s}" % (skey, tcontext, tclass, " ".join(sitem[tckey])))
+                print("allow %s %s:%s {%s};" % (skey, tcontext, tclass, " ".join(sitem[tckey])))
 
 
 def main(argv):
