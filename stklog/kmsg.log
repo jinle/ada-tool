@@ -1,0 +1,1143 @@
+<3>[134234.404708]  (0)[392:batterywarning][Battery] show_BatteryNotify : 0<5801 -> 5803>
+<2>[134235.022825]  (0)[61:dlpt_notify_thr][PBM] [ma_to_mw] 3762(mV) * 5643(mA) = 21228(mW)
+<3>[134235.022869]  (0)[61:dlpt_notify_thr][DLPT_final] 5643,0,8,8,1,7000
+<4>[134235.197415]  (0)[202:hps_main][HPS] (0xF000)<1>(0)(0) action end (0)(100)(0) (0)(0)(0) (4)(0)(0)(1)(0)(0) (0)(0)(0)(0) <1>(0)(0)
+<4>[134235.197441]  (0)[202:hps_main][HPS] (0xF000)<1>(0)(0) HRT_BT_DBG (0)(100)(0) (0)(0)(0) (4)(0)(0)(1)(0)(0) (0)(0)(0)(0) <1>(0)(0)
+<7>[134237.211569]  (0)[242:wdtk-0][WDK]: kick Ex WDT,RT[134237211547084]
+<4>[134237.311636] -(0)[0:swapper/0]Power/swap CNT(soidle,rgidle): [0] = (1287686,45850091), [1] = (0,32340632), [2] = (0,20324238), [3] = (0,4122257), [4] = (87434,6558229), [5] = (0,5309364), [6] = (0,3420946), [7] = (0,1522298), [8] = (0,4346345), [9] = (0,2052371), 
+<4>[134237.311673] -(0)[0:swapper/0]Power/swap soidle_block_cnt: [by_cpu] = 4879, [by_clk] = 3221, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, [by_frm] = 0, [by_pll] = 0, [by_pwm] = 0, [by_dvfsp] = 0, 
+<4>[134237.311701] -(0)[0:swapper/0]Power/swap soidle_block_mask: 0x00000000, 0x00000000, 0x01040200, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+<3>[134238.491720]  (0)[59:pmic_thread]kpd: Power Key generate, pressed=1
+<3>[134238.491786]  (0)[59:pmic_thread]kpd: kpd: (pressed) HW keycode =116 using PMIC
+<3>[134238.491801]  (0)[59:pmic_thread](pressed) HW keycode powerkey
+<3>[134238.523154]  (0)[324:surfaceflinger]<STEP_COUNTER> step_counter_fb_notifiergf_fb_notifier_callback, 575, enter
+<4>[134238.523305]  (0)[324:surfaceflinger][M4U] config_port:DISP_OD_R,v0,s0
+<4>[134238.523317]  (0)[324:surfaceflinger][M4U] config_port:DISP_OD_W,v0,s0
+<4>[134238.542783]  (0)[324:surfaceflinger][OD] ddp_bypass_od
+<7>[134238.543772]  (0)[324:surfaceflinger]------gr------enter lcm resume
+<7>[134238.566402] -(1)[0:swapper/1]enn_value = 1
+<7>[134238.566404] -(1)[0:swapper/1]CPU1: Booted secondary processor
+<6>[134238.566416] -(1)[0:swapper/1]Detected VIPT I-cache on CPU1
+<6>[134238.566432] -(1)[0:swapper/1]CPU1: found redistributor 1 @ffffff80000a0000
+<6>[134238.566549] -(1)[0:swapper/1]CPU1: update cpu_capacity 316
+<7>[134238.568099] -(2)[0:swapper/2]CPU2: Booted secondary processor
+<6>[134238.568108] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+<6>[134238.568124] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+<6>[134238.568244] -(2)[0:swapper/2]CPU2: update cpu_capacity 316
+<7>[134238.569904] -(3)[0:swapper/3]CPU3: Booted secondary processor
+<6>[134238.569913] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+<6>[134238.569932] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+<6>[134238.570059] -(3)[0:swapper/3]CPU3: update cpu_capacity 316
+<4>[134238.571161]  (3)[202:hps_main][HPS] (0xFF00)<1>(0)(0) action end (100)(2200)(0) (0)(0)(0) (4)(0)(0)(1)(0)(0) (0)(0)(2200)(1) <4>(0)(0)
+<7>[134238.606479]  (2)[860:kworker/2:1]aw2013_green_led_on enable 0!!!!!
+<7>[134238.606487]  (2)[860:kworker/2:1]aw2013 green status 0
+<7>[134238.606490]  (2)[860:kworker/2:1]aw2013 blue status 0
+<7>[134238.606493]  (2)[860:kworker/2:1]aw2013 red status 0
+<7>[134238.606496]  (2)[860:kworker/2:1]aw2013 green breath flag 1
+<7>[134238.606498]  (2)[860:kworker/2:1]aw2013 blue breath flag 0
+<7>[134238.606501]  (2)[860:kworker/2:1]aw2013 red breath flag 1
+<7>[134238.621692]  (1)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(10,0): freq=1391000(1391000), volt =107000(107000), on=4, cur=1222000, cci(819000,923000)
+<11>[134238.633455]  (0)[1:init]init: avc:  granted  { set } for property=net.cdma.via.service.state scontext=u:r:viarild:s0 tcontext=u:object_r:net_radio_prop:s0 tclass=property_service
+<3>[134238.649894]  (0)[59:pmic_thread]kpd: Power Key generate, pressed=0
+<3>[134238.649929]  (0)[59:pmic_thread]kpd: kpd: (released) HW keycode =116 using PMIC
+<4>[134238.691628]  (0)[202:hps_main][Power/PPM] (0x250)(13716)(0)[LL_ONLY]->[4LL_L]: (10)(0)(1)(4) (12)(0)(0)(4) (14)(0)(0)(2) 
+<3>[134238.691642]  (0)[202:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+<7>[134238.693796] -(4)[0:swapper/4]CPU4: Booted secondary processor
+<6>[134238.693818] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+<6>[134238.693853] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+<6>[134238.694055] -(4)[0:swapper/4]CPU4: update cpu_capacity 432
+<4>[134238.696413]  (4)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+<3>[134238.696441]  (4)[202:hps_main][CPUHVFS] (0) [001838cf] cluster1 on, pause = 0x0, swctrl = 0x2ff0 (0xecd00)
+<7>[134238.697925] -(5)[0:swapper/5]CPU5: Booted secondary processor
+<6>[134238.697929] -(5)[0:swapper/5]Detected VIPT I-cache on CPU5
+<6>[134238.697938] -(5)[0:swapper/5]CPU5: found redistributor 101 @ffffff8000120000
+<6>[134238.698029] -(5)[0:swapper/5]CPU5: update cpu_capacity 432
+<7>[134238.699943] -(6)[0:swapper/6]CPU6: Booted secondary processor
+<6>[134238.699951] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+<6>[134238.699969] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+<6>[134238.700102] -(6)[0:swapper/6]CPU6: update cpu_capacity 432
+<7>[134238.701742] -(7)[0:swapper/7]CPU7: Booted secondary processor
+<6>[134238.701750] -(7)[0:swapper/7]Detected VIPT I-cache on CPU7
+<6>[134238.701769] -(7)[0:swapper/7]CPU7: found redistributor 103 @ffffff8000160000
+<6>[134238.701887] -(7)[0:swapper/7]CPU7: update cpu_capacity 432
+<4>[134238.705845]  (1)[202:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+<7>[134238.706362] -(8)[0:swapper/8]CPU8: Booted secondary processor
+<6>[134238.706372] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+<6>[134238.706390] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+<6>[134238.706510] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+<4>[134238.707718]  (0)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 741000
+<3>[134238.707730]  (0)[202:hps_main][CPUHVFS] (0) [00183a41] cluster2 on, pause = 0x0, swctrl = 0x2ff0 (0xfce22)
+<7>[134238.708834] -(9)[0:swapper/9]CPU9: Booted secondary processor
+<6>[134238.708841] -(9)[0:swapper/9]Detected PIPT I-cache on CPU9
+<6>[134238.708853] -(9)[0:swapper/9]CPU9: found redistributor 201 @ffffff80001a0000
+<6>[134238.708961] -(9)[0:swapper/9]CPU9: update cpu_capacity 1024
+<4>[134238.710152]  (5)[202:hps_main][HPS] (0xF0E1)<4>(0)(0) action end (393)(1195)(0) (1)(0)(0) (4)(4)(2)(1)(0)(0) (0)(0)(1195)(3) <4>(4)(2)
+<5>[134238.751811]  (5)[202:hps_main]CPU7: shutdown
+<6>[134238.752656]  (5)[202:hps_main]psci: CPU7 killed.
+<5>[134238.755386]  (4)[202:hps_main]CPU6: shutdown
+<6>[134238.756223]  (4)[202:hps_main]psci: CPU6 killed.
+<5>[134238.758684]  (4)[202:hps_main]CPU9: shutdown
+<6>[134238.759994]  (4)[202:hps_main]psci: CPU9 killed.
+<3>[134238.761357]  (4)[202:hps_main][CPUHVFS] (0) [0018411e] cluster2 off, pause = 0x0, swctrl = 0x5ff0 (0xfceff)
+<7>[134238.761621]  (0)[324:surfaceflinger]------gr------leave lcm resume
+<5>[134238.762873]  (4)[202:hps_main]CPU8: shutdown
+<4>[134238.763222]  (4)[202:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+<6>[134238.764217]  (4)[202:hps_main]psci: CPU8 killed.
+<4>[134238.765702]  (4)[202:hps_main][HPS] (0xFF03)<4>(4)(2) action end (547)(900)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(547)(0)(0) <4>(2)(0)
+<15>[134238.772455]  (4)[310:logd.writer]logd:diff time 12930458847, run time  48871141, count 5000,step 1 2277,2 237,3 1930,4 5328. filter count 0.
+<5>[134238.807226]  (4)[202:hps_main]CPU5: shutdown
+<6>[134238.808120]  (4)[202:hps_main]psci: CPU5 killed.
+<4>[134238.809524]  (4)[202:hps_main][HPS] (0xFF03)<4>(2)(0) action end (474)(900)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(474)(0)(0) <4>(1)(0)
+<2>[134238.811696]  (0)[324:surfaceflinger][VcoreFS]SCREEN ON
+<4>[134238.811778]  (0)[324:surfaceflinger][Power/PPM] @ppm_lcmoff_switch: onoff = 1
+<3>[134238.811785]  (0)[324:surfaceflinger]<STEP_COUNTER> step_counter_fb_notifier
+<3>[134238.811788]  (0)[324:surfaceflinger]<STEP_COUNTER> fb_notify(blank=0)
+<3>[134238.811792]  (0)[324:surfaceflinger]<STEP_COUNTER> LCD ON Notify
+<3>[134238.811793]  (0)[324:surfaceflinger]<STEP_COUNTER> step_counter_resume 579 :  step_counter_resume
+<3>[134238.811798]  (0)[324:surfaceflinger]<STEP_COUNTER> start step_counter_resume failed
+<6>[134238.811800]  (0)[324:surfaceflinger]mtk-tpd: fb_notify(blank=0)
+<6>[134238.811802]  (0)[324:surfaceflinger]mtk-tpd: LCD ON Notify
+<4>[134238.811824]  (0)[324:surfaceflinger][WMT-DEV][W]wmt_fb_notifier_callback:@@@@@@@@@@wmt enter UNBLANK @@@@@@@@@@@@@@
+<7>[134238.811840]  (0)[324:surfaceflinger]gf_fb_notifier_callback, 575, enter
+<4>[134238.811844]  (0)[324:surfaceflinger][gf] [gf_fb_notifier_callback] : enter, blank=0x0
+<4>[134238.811847]  (0)[324:surfaceflinger][gf] [gf_fb_notifier_callback] : lcd on notify
+<7>[134238.811879]  (0)[324:surfaceflinger]gf_fb_notifier_callback, 601, exit
+<7>[134238.812612]  (2)[1430:goodixfingerpri]gf_ioctl, 664, enter
+<4>[134238.812630]  (2)[1430:goodixfingerpri][gf] gf_ioctl: GF_IOC_ENABLE_SPI_CLK ======
+<7>[134238.812645]  (2)[1430:goodixfingerpri]gf_ioctl, 819, exit
+<2>[134238.813252]  (2)[1430:goodixfingerpri][VcoreFS]1. request: 3, opp: 0
+<2>[134238.813273]  (2)[1430:goodixfingerpri][VcoreFS]2. request: 3, opp: 0 (2)[1430:goodixfingerpri][VcoreFS]3. request: 3, opp: 0
+<2>[134238.813291]  (2)[1430:goodixfingerpri][VcoreFS]kr opp: -1, -1, -1, 0, -1, -1, 
+<2>[134238.813300]  (2)[1430:goodixfingerpri][VcoreFS]kicker: 3, opp: 0, dvfs_opp: 0, curr_opp: 1
+<2>[134238.813321]  (2)[1430:goodixfingerpri][VcoreFS]opp: 0, vcore: 1000000(900000), fddr: 1600000(1270000) [O][O]
+<3>[134238.813878] -(2)[1430:goodixfingerpri][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 94(0)
+<2>[134238.814604]  (2)[1430:goodixfingerpri][VcoreFS]opp: 0, faxi: 156000(136500) [O]
+<2>[134238.814688]  (2)[1430:goodixfingerpri][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<7>[134238.815011]  (3)[722:SFWatchDog][;34m[TEEI][TZDriver][set_fp_command][109][0m
+<3>[134238.816979]  (3)[722:SFWatchDog]AEE_MONITOR_SET[status]: 0x1 (2)[1430:goodixfingerpri][VcoreFS]1. request: 3, opp: -1
+<2>[134238.822576]  (2)[1430:goodixfingerpri][VcoreFS]2. request: 3, opp: -1 (2)[1430:goodixfingerpri][VcoreFS]3. request: 3, opp: -1
+<2>[134238.822593]  (2)[1430:goodixfingerpri][VcoreFS]kr opp: -1, -1, -1, -1, -1, -1, 
+<2>[134238.822601]  (2)[1430:goodixfingerpri][VcoreFS]kicker: 3, opp: -1, dvfs_opp: 1, curr_opp: 0
+<2>[134238.822707]  (2)[1430:goodixfingerpri][VcoreFS]opp: 1, faxi: 136500(156000) [O]
+<2>[134238.822756]  (2)[1430:goodixfingerpri][VcoreFS]opp: 1, vcore: 900000(1000000), fddr: 1270000(1600000) [O][O]
+<3>[134238.823188] -(2)[1430:goodixfingerpri][VcoreFS_SPM]req: 0x0, target: 0x1000000
+<2>[134238.823197]  (2)[1430:goodixfingerpri][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<7>[134238.823619]  (2)[1430:goodixfingerpri]gf_ioctl, 664, enter
+<4>[134238.823629]  (2)[1430:goodixfingerpri][gf] gf_ioctl: GF_IOC_DISABLE_SPI_CLK ======
+<7>[134238.823644]  (2)[1430:goodixfingerpri]gf_ioctl, 819, exit
+<4>[134238.832523]  (3)[95:pbm][Power/PPM] (0x210)(17231)(0)[4LL_L]: (15)(0)(1)(4) (15)(0)(0)(4) (15)(0)(0)(2) 
+<7>[134238.841656]  (4)[364:mtk_wmtd][;34m[TEEI][TZDriver][uTgate LOG] [E][gf_milan_f.c:2479/gf_milan_f_read_fdt_base][GF_TA][ERR][gf_milan_f] [gf_milan_f_read_fdt_base] g_cur_milan_f_mode:3, need to reset and switch to idle
+<7>[134238.841656] [0m[;34m[TEEI][TZDriver][uTgate LOG] [E][gf_milan_f.c:2479/gf_milan_f_read_fdt_base]
+<7>[134238.841656] [0m[;34m[TEEI][TZDriver][uTgate LOG] 
+<7>[134238.841656] [0m[;34m[TEEI][TZDriver][uTgate LOG] [E][gf_milan_f.c:2625/milan_f_check_finger_up][GF_TA][ERR][gf_milan_f] [milan_f_check_finger_up] get FDT average data fail, err:1003
+<7>[134238.841656] [0m[;34m[TEEI][TZDriver][uTgate LOG] [E][gf_milan_f.c:2625/milan_f_check_finger_up]
+<7>[134238.841656] [0m[;34m[TEEI][TZDriver][uTgate LOG] 
+<7>[134238.841656] [0m
+<4>[134238.841901]  (4)[364:mtk_wmtd][WMT-CORE][W]wmt_core_dump_func_state:[AF FUNC ON]status(b:0 f:0 g:0 w:2 lpbk:2 coredump:0 wmt:2 stp:0)
+<4>[134238.841983]  (0)[27697:kworker/0:0][WMT-EXP][W]mtk_wcn_wmt_func_ctrl:OPID(3) type(9) ok
+<4>[134238.847155]  (2)[715:UICompThread_0][OD] ddp_bypass_od
+<3>[134238.849737]  (4)[202:hps_main][CPUHVFS] (0) [00184c6e] cluster1 off, pause = 0x0, swctrl = 0x5ff0 (0xfceff)
+<5>[134238.852034]  (1)[202:hps_main]CPU4: shutdown
+<6>[134238.853734]  (1)[202:hps_main]psci: CPU4 killed.
+<4>[134238.855266]  (1)[202:hps_main][HPS] (0xFF03)<4>(1)(0) action end (418)(823)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(418)(0)(0) <4>(0)(0)
+<7>[134238.867074]  (1)[4297:kworker/u20:5]binder: [name:binder&]binder_flush: 1109 woke 16 threads
+<7>[134238.897539] -(4)[0:swapper/4]CPU4: Booted secondary processor
+<6>[134238.897591] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+<6>[134238.897640] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+<6>[134238.897854] -(4)[0:swapper/4]CPU4: update cpu_capacity 432
+<4>[134238.900216]  (4)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+<3>[134238.900260]  (4)[202:hps_main][CPUHVFS] (0) [001852e5] cluster1 on, pause = 0x0, swctrl = 0x2ff0 (0xecd00)
+<5>[134238.905069]  (0)[202:hps_main]CPU3: shutdown
+<6>[134238.905418]  (0)[202:hps_main]psci: CPU3 killed.
+<4>[134238.907126]  (0)[202:hps_main][HPS] (0xF0E1)<4>(0)(0) action end (322)(700)(0) (1)(0)(0) (4)(4)(2)(1)(0)(0) (0)(322)(0)(0) <3>(1)(0)
+<7>[134238.911680]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_L:(15,0): freq=1846000(1846000), volt =108000(108000), on=4, cur=1781000, cci(923000,923000)
+<4>[134238.938635]  (1)[5808:thermal_manager][CPU_Thermal]apthermolmt_set_general_cpu_power_limit 900
+<4>[134238.938735]  (1)[5808:thermal_manager][Power/PPM] (0x218)(900)(0)[4LL_L]: (15)(5)(1)(4) (15)(5)(0)(4) (15)(0)(0)(2) 
+<7>[134238.940143]  (1)[5808:thermal_manager][name:mtk_ts_cpu&][CPU_Thermal]tscpu_unbind unbinding OK
+<7>[134238.940217]  (1)[5808:thermal_manager][name:mtk_ts_cpu&][CPU_Thermal]tscpu_unbind unbinding OK
+<7>[134238.940233]  (1)[5808:thermal_manager][name:mtk_ts_cpu&][CPU_Thermal]tscpu_unbind unbinding OK
+<4>[134238.943591]  (1)[5808:thermal_manager][CPU_Thermal][tIRQ] tscpu_config_tc_sw_protect,highoffset=80000,lowoffset=70000,bank=0,ts_name=0
+<7>[134238.943638]  (1)[5808:thermal_manager][name:mtk_ts_cpu&][CPU_Thermal]tscpu_bind binding OK, 0
+<7>[134238.943716]  (1)[5808:thermal_manager][name:mtk_ts_cpu&][CPU_Thermal]tscpu_bind binding OK, 2
+<4>[134238.943744]  (1)[5808:thermal_manager][CPU_Thermal][tIRQ] tscpu_config_tc_sw_protect,highoffset=80000,lowoffset=70000,bank=0,ts_name=0
+<7>[134238.943770]  (1)[5808:thermal_manager][name:mtk_ts_cpu&][CPU_Thermal]tscpu_bind binding OK, 1
+<4>[134238.943878]  (1)[5808:thermal_manager][CPU_Thermal]apthermolmt_set_general_cpu_power_limit 2147483647
+<4>[134238.943949]  (1)[5808:thermal_manager][Power/PPM] (0x210)(14131)(0)[4LL_L]: (15)(0)(1)(4) (15)(0)(0)(4) (15)(0)(0)(2) 
+<7>[134238.947960] -(3)[0:swapper/3]CPU3: Booted secondary processor
+<6>[134238.947985] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+<6>[134238.948006] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+<6>[134238.948139] -(3)[0:swapper/3]CPU3: update cpu_capacity 316
+<3>[134238.949568]  (3)[202:hps_main][CPUHVFS] (0) [00185935] cluster1 off, pause = 0x0, swctrl = 0x5af0 (0xbc5aa)
+<5>[134238.955056]  (2)[202:hps_main]CPU4: shutdown
+<6>[134238.956932]  (2)[202:hps_main]psci: CPU4 killed.
+<4>[134238.958868]  (2)[202:hps_main][HPS] (0xFF03)<3>(1)(0) action end (392)(1300)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(392)(0)(0) <4>(0)(0)
+<7>[134238.998581]  (3)[1444:PhotonicModulat]liwei backlight level start:56
+<7>[134238.998600]  (3)[1444:PhotonicModulat]liwei backlight level end:51
+<4>[134238.998618]  (3)[1444:PhotonicModulat][PWM] disp_pwm_set_backlight_cmdq(id = 0x1, level_1024 = 205), old = -1
+<7>[134239.001244] -(4)[0:swapper/4]CPU4: Booted secondary processor
+<6>[134239.001293] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+<6>[134239.001343] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+<6>[134239.001562] -(4)[0:swapper/4]CPU4: update cpu_capacity 432
+<7>[134239.001665]  (1)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(15,0): freq=1391000(1391000), volt =107000(107000), on=5, cur=1222000, cci(819000,923000)
+<4>[134239.004182]  (4)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+<3>[134239.004227]  (4)[202:hps_main][CPUHVFS] (0) [00186034] cluster1 on, pause = 0x0, swctrl = 0x2af0 (0xecd00)
+<7>[134239.005740] -(5)[0:swapper/5]CPU5: Booted secondary processor
+<6>[134239.005750] -(5)[0:swapper/5]Detected VIPT I-cache on CPU5
+<6>[134239.005763] -(5)[0:swapper/5]CPU5: found redistributor 101 @ffffff8000120000
+<6>[134239.005864] -(5)[0:swapper/5]CPU5: update cpu_capacity 432
+<7>[134239.007424] -(6)[0:swapper/6]CPU6: Booted secondary processor
+<6>[134239.007445] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+<6>[134239.007466] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+<6>[134239.007599] -(6)[0:swapper/6]CPU6: update cpu_capacity 432
+<7>[134239.009382] -(7)[0:swapper/7]CPU7: Booted secondary processor
+<6>[134239.009405] -(7)[0:swapper/7]Detected VIPT I-cache on CPU7
+<6>[134239.009426] -(7)[0:swapper/7]CPU7: found redistributor 103 @ffffff8000160000
+<6>[134239.009564] -(7)[0:swapper/7]CPU7: update cpu_capacity 432
+<4>[134239.010846]  (5)[202:hps_main][HPS] (0xFF00)<4>(0)(0) action end (398)(1096)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(0)(1096)(1) <4>(4)(0)
+<7>[134239.021597]  (7)[2445:Binder_9][ALS/PS] ps_set_delay (1)
+<7>[134239.021616]  (7)[2445:Binder_9]<ALS/PS>  ps_delay 1000000 ns
+<7>[134239.021774]  (7)[2445:Binder_9]<ALS/PS> ps_store_batch buf=0
+<7>[134239.021783]  (7)[2445:Binder_9]<ALS/PS>  ps_store_batch not supported
+<7>[134239.021788]  (7)[2445:Binder_9]<ALS/PS>  ps_store_batch done: 0
+<3>[134239.022027]  (7)[2445:Binder_9]<BATCHDEV> batch_store_batch 494 : batch_store_delay param: handle 7, flag:0 samplingPeriodNs:1000000, maxBatchReportLatencyNs: 0
+<3>[134239.022751]  (4)[2445:Binder_9]<BATCHDEV> batch_store_active 345 :  batch_store_active handle=7 ,en=1
+<7>[134239.023011]  (5)[2445:Binder_9]<ALS/PS> ps_store_active buf=1
+<7>[134239.023024]  (5)[2445:Binder_9]<ALS/PS> PS enable data
+<7>[134239.023030]  (5)[2445:Binder_9][ALS/PS] obj_ipi_data als enable value = 1
+<7>[134239.023164]  (5)[2445:Binder_9]<ALS/PS> ps real enable
+<7>[134239.023171]  (5)[2445:Binder_9]<ALS/PS>  ps_store_active done
+<4>[134239.031658]  (5)[4161:kworker/5:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.041655]  (5)[4161:kworker/5:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.051690]  (5)[4161:kworker/5:0][ALS/PS]ps_data_report! 1, 2
+<7>[134239.051775]  (3)[4126:kworker/u20:3]fts_esd_protection_resume enter
+<5>[134239.052564]  (6)[202:hps_main]CPU7: shutdown
+<6>[134239.053536]  (6)[202:hps_main]psci: CPU7 killed.
+<4>[134239.055563]  (3)[1434:PerfServiceMana][Power/PPM] (0x230)(15448)(0)[4LL_L]: (5)(0)(1)(4) (15)(0)(0)(4) (15)(0)(0)(2) 
+<4>[134239.056166]  (3)[1434:PerfServiceMana][Power/PPM] (0x230)(15448)(0)[4LL_L]: (5)(0)(3)(4) (15)(0)(0)(4) (15)(0)(0)(2) 
+<5>[134239.057685]  (2)[202:hps_main]CPU6: shutdown
+<6>[134239.058679]  (2)[202:hps_main]psci: CPU6 killed.
+<4>[134239.064680]  (0)[4161:kworker/5:0][ALS/PS]ps_data_report! 1, 2
+<5>[134239.064754]  (0)[202:hps_main]CPU5: shutdown
+<6>[134239.065616]  (0)[202:hps_main]psci: CPU5 killed.
+<4>[134239.067236]  (0)[202:hps_main][HPS] (0xFF03)<4>(4)(0) action end (468)(523)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(468)(0)(0) <4>(1)(0)
+<3>[134239.067400]  (0)[202:hps_main][CPUHVFS] (0) [0018684b] cluster1 off, pause = 0x0, swctrl = 0x5ef0 (0xecdee)
+<5>[134239.069646]  (1)[202:hps_main]CPU4: shutdown
+<6>[134239.071447]  (1)[202:hps_main]psci: CPU4 killed.
+<4>[134239.071917]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.073284]  (1)[202:hps_main][HPS] (0xFF03)<4>(1)(0) action end (395)(586)(0) (0)(0)(0) (4)(4)(2)(3)(0)(0) (0)(395)(0)(0) <4>(0)(0)
+<4>[134239.081708]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.091727]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.102218]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.112345]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134239.114952]  (1)[202:hps_main]CPU3: shutdown
+<6>[134239.115899]  (1)[202:hps_main]psci: CPU3 killed.
+<4>[134239.117563]  (1)[202:hps_main][HPS] (0xFF03)<4>(0)(0) action end (226)(600)(0) (0)(0)(0) (4)(4)(2)(3)(0)(0) (0)(226)(0)(0) <3>(0)(0)
+<4>[134239.121862]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.133827]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.141668]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.151774]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.161801]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.171679]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.181668]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.191670]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.202396]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.212083]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.221689]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.231806]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.237955]  (2)[202:hps_main][Power/PPM] (0x230)(13700)(0)[4LL_L]->[LL_ONLY]: (5)(0)(3)(4) (15)(0)(0)(0) (15)(0)(0)(0) 
+<3>[134239.237979]  (2)[202:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+<7>[134239.238618] -(3)[0:swapper/3]CPU3: Booted secondary processor
+<6>[134239.238644] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+<6>[134239.238667] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+<6>[134239.238807] -(3)[0:swapper/3]CPU3: update cpu_capacity 316
+<4>[134239.239798]  (2)[202:hps_main][HPS] (0xFF02)<3>(0)(0) action end (234)(331)(0) (0)(0)(0) (4)(0)(0)(3)(0)(0) (252)(0)(0)(0) <4>(0)(0)
+<4>[134239.241925]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.251681]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.261801]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.271707]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.281731]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.291691]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.301713]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.311934]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134239.321404]  (1)[202:hps_main]CPU3: shutdown
+<4>[134239.321874]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<6>[134239.322405]  (1)[202:hps_main]psci: CPU3 killed.
+<4>[134239.323978]  (1)[202:hps_main][HPS] (0xFF03)<4>(0)(0) action end (128)(600)(0) (0)(0)(0) (4)(0)(0)(3)(0)(0) (0)(128)(0)(0) <3>(0)(0)
+<4>[134239.331745]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.341669]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.351701]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.361955]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.371690]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.381712]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.391654]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.401770]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.411772]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134239.421642]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(5,0): freq=1092000(1092000), volt =99000(99000), on=3, cur=1391000, cci(923000,754000)
+<4>[134239.422281]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.431946]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.441694]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.451807]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.461669]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.471695]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.481853]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.491717]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.501716]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.511743]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.521751]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.531752]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.541735]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.551744]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.561658]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.571728]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.581669]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.591671]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.601686]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.611826]  (0)[4048:kworker/0:1][ALS/PS]ps_data_report! 1, 2
+<4>[134239.621674]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.631701]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.641791]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.651969]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.661783]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.671729]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.681760]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.691672]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.699962]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(17976)(0)[LL_ONLY]: (5)(0)(1)(4) (15)(0)(0)(0) (15)(0)(0)(0) 
+<4>[134239.700145]  (0)[1434:PerfServiceMana][Power/PPM] (0x210)(17976)(0)[LL_ONLY]: (15)(0)(1)(4) (15)(0)(0)(0) (15)(0)(0)(0) 
+<5>[134239.701309]  (0)[202:hps_main]CPU2: shutdown
+<6>[134239.702413]  (0)[202:hps_main]psci: CPU2 killed.
+<4>[134239.705464]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134239.706492]  (0)[202:hps_main]CPU1: shutdown
+<6>[134239.706764]  (0)[202:hps_main]psci: CPU1 killed.
+<4>[134239.708740]  (0)[202:hps_main][HPS] (0xFF03)<3>(0)(0) action end (18)(200)(0) (0)(0)(0) (4)(0)(0)(1)(0)(0) (0)(18)(0)(0) <1>(0)(0)
+<4>[134239.712026]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.721750]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.731761]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.741859]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.751742]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.761728]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.771700]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.781714]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.791703]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134239.801667]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(15,0): freq=221000(221000), volt =78000(78000), on=1, cur=1092000, cci(754000,169000)
+<4>[134239.802961]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.812210]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<3>[134239.817468]  (0)[27697:kworker/0:0]AEE_MONITOR_SET[status]: 0x1
+<4>[134239.822614]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.832086]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.842234]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.852165]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.862248]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.872737]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.882182]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.892130]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.902150]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.913173]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.922253]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.932096]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.942117]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.952447]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.962839]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.972782]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.983075]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134239.992195]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.002634]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.012676]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.022672]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.034112]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134240.041949]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(15,0): freq=897000(897000), volt =94000(94000), on=1, cur=221000, cci(169000,637000)
+<4>[134240.042994]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.053450]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.062032]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.071736]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.082060]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.091758]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.101797]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.111734]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.122324]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.131760]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134240.141696]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(15,0): freq=481000(481000), volt =82000(82000), on=1, cur=897000, cci(637000,325000)
+<4>[134240.142517]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.151860]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.162210]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.168430]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(20269)(0)[LL_ONLY]: (5)(0)(1)(4) (15)(0)(0)(0) (15)(0)(0)(0) 
+<4>[134240.169705]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(20269)(0)[LL_ONLY]: (5)(0)(3)(4) (15)(0)(0)(0) (15)(0)(0)(0) 
+<7>[134240.170398] -(1)[0:swapper/1]CPU1: Booted secondary processor
+<6>[134240.170412] -(1)[0:swapper/1]Detected VIPT I-cache on CPU1
+<6>[134240.170432] -(1)[0:swapper/1]CPU1: found redistributor 1 @ffffff80000a0000
+<6>[134240.170558] -(1)[0:swapper/1]CPU1: update cpu_capacity 316
+<7>[134240.172181] -(2)[0:swapper/2]CPU2: Booted secondary processor
+<6>[134240.172203] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+<6>[134240.172223] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+<6>[134240.172346] -(2)[0:swapper/2]CPU2: update cpu_capacity 316
+<4>[134240.172895]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.173496]  (2)[202:hps_main][HPS] (0xF000)<1>(0)(0) action end (63)(600)(0) (0)(0)(0) (4)(0)(0)(3)(0)(0) (0)(0)(0)(0) <3>(0)(0)
+<4>[134240.181855]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.192329]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.201813]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<3>[134240.204355]  (2)[2303:watchdog]AEEIOCTL_RT_MON_Kick ( 300)
+<3>[134240.204396]  (2)[2303:watchdog][Hang_Detect] hang_detect enabled 10
+<4>[134240.208872]  (1)[324:surfaceflinger][OD] ddp_bypass_od
+<4>[134240.211928]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.213681]  (1)[202:hps_main][HPS] (0xFF03)<3>(0)(0) action end (178)(300)(0) (0)(0)(0) (4)(0)(0)(3)(0)(0) (0)(178)(0)(0) <3>(0)(0)
+<4>[134240.213707]  (1)[202:hps_main][HPS] (0xFF03)<3>(0)(0) HRT_BT_DBG (178)(300)(0) (0)(0)(0) (4)(0)(0)(3)(0)(0) (0)(178)(0)(0) <3>(0)(0)
+<4>[134240.221734]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.231900]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.242377]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.251707]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.261717]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.271680]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.281818]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.291695]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.301969]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.312037]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.321821]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.321893] -(0)[0:swapper/0]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+<4>[134240.331716]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.341701]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.351692]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.361782]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.371756]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.382467]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.391771]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.401900]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.412257]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.421727]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.431685]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.441712]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.451963]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.462533]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.471737]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.481714]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.491768]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.501964]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.512460]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.522176]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134240.531666]  (1)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(5,0): freq=1391000(1391000), volt =107000(107000), on=3, cur=1287000, cci(858000,923000)
+<4>[134240.532234]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.541735]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.551823]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.561839]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.571885]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134240.575701] -(3)[0:swapper/3]CPU3: Booted secondary processor
+<6>[134240.575731] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+<6>[134240.575751] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+<6>[134240.575909] -(3)[0:swapper/3]CPU3: update cpu_capacity 316
+<4>[134240.576961]  (0)[202:hps_main][HPS] (0xFF02)<3>(0)(0) action end (235)(382)(0) (0)(0)(0) (4)(0)(0)(3)(0)(0) (256)(0)(0)(0) <4>(0)(0)
+<4>[134240.581708]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.591735]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.601942]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.611672]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134240.618315]  (0)[202:hps_main]CPU3: shutdown
+<6>[134240.619301]  (0)[202:hps_main]psci: CPU3 killed.
+<4>[134240.620686]  (0)[202:hps_main][HPS] (0xFF03)<4>(0)(0) action end (174)(300)(0) (0)(0)(0) (4)(0)(0)(3)(0)(0) (0)(174)(0)(0) <3>(0)(0)
+<4>[134240.621912]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134240.627042]  (1)[399:gatekeeperd][TEE] teei_config_flag = 1
+<4>[134240.627061]  (1)[399:gatekeeperd][TEE] open wait for 0 msecs
+<4>[134240.632512]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.641756]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.651698]  (0)[4048:kworker/0:1][ALS/PS]ps_data_report! 1, 2
+<4>[134240.661666]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.672260]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.682667]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134240.684628]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(13842)(0)[LL_ONLY]: (0)(0)(3)(4) (15)(0)(0)(0) (15)(0)(0)(0) 
+<4>[134240.685046]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(13842)(0)[LL_ONLY]->[4LL_L]: (0)(0)(3)(4) (0)(0)(0)(4) (0)(0)(2)(2) 
+<4>[134240.685183]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(13842)(0)[4LL_L]: (0)(0)(3)(4) (0)(0)(4)(4) (0)(0)(2)(2) 
+<3>[134240.685195]  (0)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134240.685300]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(13842)(0)[4LL_L]: (0)(0)(4)(4) (0)(0)(4)(4) (0)(0)(2)(2) 
+<3>[134240.685309]  (0)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<3>[134240.685376]  (0)[1434:PerfServiceMana][VcoreFS_SPM]perform BW enable: 1, SPM_SRC2_MASK: 0x6000107
+<4>[134240.685386]  (0)[1434:PerfServiceMana][Power/PPM] sys boost by PERFSERV: req_freq = 0, target_boost_freq = 0
+<2>[134240.685413]  (0)[1434:PerfServiceMana][VcoreFS]1. request: 1, opp: 0
+<2>[134240.685423]  (0)[1434:PerfServiceMana][VcoreFS]2. request: 1, opp: 0 (0)[1434:PerfServiceMana][VcoreFS]3. request: 1, opp: 0
+<2>[134240.685438]  (0)[1434:PerfServiceMana][VcoreFS]kr opp: -1, 0, -1, -1, -1, -1, 
+<2>[134240.685446]  (0)[1434:PerfServiceMana][VcoreFS]kicker: 1, opp: 0, dvfs_opp: 0, curr_opp: 1
+<2>[134240.685466]  (0)[1434:PerfServiceMana][VcoreFS]opp: 0, vcore: 1000000(900000), fddr: 1600000(1270000) [O][O]
+<3>[134240.686017] -(0)[1434:PerfServiceMana][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 403(0)
+<2>[134240.686123]  (0)[1434:PerfServiceMana][VcoreFS]opp: 0, faxi: 156000(136500) [O]
+<2>[134240.686161]  (0)[1434:PerfServiceMana][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<7>[134240.687292] -(4)[0:swapper/4]CPU4: Booted secondary processor
+<6>[134240.687342] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+<6>[134240.687387] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+<6>[134240.687606] -(4)[0:swapper/4]CPU4: update cpu_capacity 432
+<4>[134240.689737]  (4)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+<3>[134240.689780]  (4)[202:hps_main][CPUHVFS] (0) [001937f4] cluster1 on, pause = 0x0, swctrl = 0x2ef0 (0xecd00)
+<4>[134240.690549]  (4)[202:hps_main][HPS] [Info]Condition break!!
+<4>[134240.690566]  (4)[202:hps_main][HPS] (0xFF03)<3>(0)(0) action break!! (221)(500)(0) (0)(0)(0) (4)(4)(2)(3)(4)(2)-->(4)(4)(2)(4)(4)(2) (0)(221)(0)(0) <3>(4)(2)
+<4>[134240.692182]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134240.701651]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_L:(0,0): freq=1846000(1846000), volt =108000(108000), on=4, cur=1781000, cci(923000,923000)
+<3>[134240.702130]  (1)[1119:Binder_1]<BATCHDEV> batch_store_active 345 :  batch_store_active handle=7 ,en=0
+<4>[134240.702226]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134240.703082]  (1)[1119:Binder_1]<ALS/PS> ps_store_active buf=0
+<7>[134240.703097]  (1)[1119:Binder_1]<ALS/PS> PS disable
+<7>[134240.703107]  (1)[1119:Binder_1][ALS/PS] obj_ipi_data als enable value = 0
+<7>[134240.703432]  (1)[1119:Binder_1]<ALS/PS> ps real disable
+<7>[134240.703443]  (1)[1119:Binder_1]<ALS/PS>  ps_store_active done
+<7>[134240.731197] -(3)[0:swapper/3]CPU3: Booted secondary processor
+<6>[134240.731217] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+<6>[134240.731234] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+<6>[134240.731347] -(3)[0:swapper/3]CPU3: update cpu_capacity 316
+<7>[134240.732883] -(5)[0:swapper/5]CPU5: Booted secondary processor
+<6>[134240.732903] -(5)[0:swapper/5]Detected VIPT I-cache on CPU5
+<6>[134240.732921] -(5)[0:swapper/5]CPU5: found redistributor 101 @ffffff8000120000
+<6>[134240.733038] -(5)[0:swapper/5]CPU5: update cpu_capacity 432
+<7>[134240.734454] -(6)[0:swapper/6]CPU6: Booted secondary processor
+<6>[134240.734473] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+<6>[134240.734492] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+<6>[134240.734610] -(6)[0:swapper/6]CPU6: update cpu_capacity 432
+<7>[134240.736011] -(7)[0:swapper/7]CPU7: Booted secondary processor
+<6>[134240.736027] -(7)[0:swapper/7]Detected VIPT I-cache on CPU7
+<6>[134240.736044] -(7)[0:swapper/7]CPU7: found redistributor 103 @ffffff8000160000
+<6>[134240.736158] -(7)[0:swapper/7]CPU7: update cpu_capacity 432
+<4>[134240.739742]  (5)[202:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+<7>[134240.740221] -(8)[0:swapper/8]CPU8: Booted secondary processor
+<6>[134240.740243] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+<6>[134240.740266] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+<6>[134240.740403] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+<4>[134240.741685]  (6)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 741000
+<3>[134240.741703]  (6)[202:hps_main][CPUHVFS] (0) [00193e9a] cluster2 on, pause = 0x0, swctrl = 0x2ff0 (0xfce22)
+<7>[134240.743095] -(9)[0:swapper/9]CPU9: Booted secondary processor
+<6>[134240.743106] -(9)[0:swapper/9]Detected PIPT I-cache on CPU9
+<6>[134240.743117] -(9)[0:swapper/9]CPU9: found redistributor 201 @ffffff80001a0000
+<6>[134240.743218] -(9)[0:swapper/9]CPU9: update cpu_capacity 1024
+<4>[134240.743869]  (8)[202:hps_main][HPS] (0xFF03)<3>(1)(0) action end (293)(800)(0) (0)(0)(0) (4)(4)(2)(4)(4)(2) (0)(293)(0)(0) <4>(4)(2)
+<3>[134240.801570]  (7)[0:swapper/7][ccci1/net][Error:77]get_ccmni_idx_from_ch:invalid ccmni rx channel(0x60)
+<3>[134240.801584]  (7)[0:swapper/7][ccci1/net][Error:1041]ccmni_dump:CCMNI rx(96) skb ch error
+<3>[134240.817808]  (9)[310:logd.writer]AEE_MONITOR_SET[status]: 0x1
+<15>[134241.577509]  (9)[310:logd.writer]logd:diff time 2805065231, run time  87484862, count 5000,step 1 4679,2 375,3 4069,4 8371. filter count 0.
+<13>[134241.817776]  (5)[391:fuelgauged]MTK_FG: wake up function 1
+<3>[134241.818043]  (5)[391:fuelgauged]AEE_MONITOR_SET[status]: 0x1
+<13>[134241.818281]  (5)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_GET_INIT_FLAG, flag 1
+<13>[134241.818353]  (5)[391:fuelgauged]MTK_FG: [fg_res] FG_DAEMON_CMD_GET_CHARGE_TRACKING_TIME, charge_tracking_time 60
+<11>[134241.818387]  (5)[391:fuelgauged]MTK_FG: FG parameters v1(5066,5004,3742,2514) (4965,4904,3667,2464) (30,10,1) 60 120 3100 (2,97) (1,1,20) 5
+<13>[134241.818407]  (5)[391:fuelgauged]MTK_FG: [fgauge_dump_table]table idx:110 (voltage:resistance)
+<13>[134241.818444]  (5)[391:fuelgauged]MTK_FG: [0-36](4316:452) (4252:461) (4214:514) (4194:520) (4166:530) (4145:540) (4124:544) (4100:553) (4082:564) (4065:582)
+<13>[134241.818476]  (5)[391:fuelgauged]MTK_FG: [40-76](4034:574) (4009:570) (3979:570) (3963:576) (3949:574) (3930:561) (3910:552) (3899:548) (3874:532) (3864:532)
+<13>[134241.818500]  (5)[391:fuelgauged]MTK_FG: [80-100](3849:534) (3839:540) (3833:544) (3820:554) (3820:588) (3811:588) 
+<5>[134241.818518] -(5)[391:fuelgauged]mtk_rtc_hal_common: rtc_spare_reg[0] = {16412, 127, 8}
+<13>[134241.818551]  (5)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_GET_RTC_SPARE_FG_VALUE, fg_rtc_fg_soc 10
+<13>[134241.818599]  (5)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_IS_CHARGER_EXIST, fg_charger_exist 1
+<13>[134241.818640]  (5)[391:fuelgauged]MTK_FG: [fg_res] FG_DAEMON_CMD_GET_SHUTDOWN_SYSTEM_VOLTAGE, shutdown_system_voltage 3200
+<3>[134241.819382]  (9)[238:bat_routine_thr][BAT_thread]Cable in, CHR_Type_num=1
+<7>[134241.821169]  (8)[391:fuelgauged][BattThermistorConverTemp] g_fg_battery_id=0.
+<7>[134241.821181]  (8)[391:fuelgauged]tbat_temp_for_charger tbat_adc=30 , tbat_temp=30.
+<13>[134241.821251]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_GET_TEMPERTURE, fg_battery_temp 30
+<13>[134241.821481]  (8)[391:fuelgauged]MTK_FG: BATTERY_METER_CMD_GET_HW_FG_CURRENT, output 6441
+<13>[134241.821501]  (8)[391:fuelgauged]MTK_FG: BATTERY_METER_CMD_GET_HW_FG_CURRENT_SIGN, output 0
+<13>[134241.821727]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_GET_HW_FG_CAR_ACT, output 33
+<13>[134241.821739]  (8)[391:fuelgauged]MTK_FG: 6.[FGADC_CAR] CAR_B 26, CAR_A 33, CAR_D -7, CAR_S 34103, CAR_C 34103
+<13>[134241.821761]  (8)[391:fuelgauged]MTK_FG: [fg_res] FG_DAEMON_CMD_GET_DURATION_TIME, duration time 10
+<13>[134241.821776]  (8)[391:fuelgauged]MTK_FG: fg_coulomb_act_pre=0 fg_coulomb_act=33 duration_time=10 fg_coulomb_act_time=50 fg_coulomb_act_diff=0 fg_coulomb_act_diff_time=0 fg_coulomb_is_charging:1
+<13>[134241.821786]  (8)[391:fuelgauged]MTK_FG: 1. [FGADC_CAL] % 11 V=3694, track =0 
+<13>[134241.821793]  (8)[391:fuelgauged]MTK_FG: [FG_BUFFER] MTK_FG: 712,MTK_FG: 3151,MTK_FG: 9888,MTK_FG: 13591,MTK_FG: 15417,MTK_FG: 2680,MTK_FG: 4094,MTK_FG: 4022,MTK_FG: 4056,MTK_FG: 6441,MTK_FG: 3979,MTK_FG: 4036,MTK_FG: 4056,MTK_FG: 4022,MTK_FG: 4044,MTK_FG: 4048,MTK_FG: 772,MTK_FG: 4310,MTK_FG: 1512,MTK_FG: 1185,MTK_FG: 3470,MTK_FG: 4305,MTK_FG: 2445,MTK_FG: 5892,MTK_FG: 2145,MTK_FG: 2671,MTK_FG: 1857,MTK_FG: 700,MTK_FG: 2040,MTK_FG: 10173,MTK_FG: 
+<13>[134241.821929]  (8)[391:fuelgauged]MTK_FG: [CompensateVoltage] ocv:3852, compensate volt:3790, compensate value:62, r_bat:126, i:4390
+<13>[134241.821941]  (8)[391:fuelgauged]MTK_FG: [fgauge_compensate_battery_voltage] compensate volt:3790, dods1:750, dods:250, r_bat:126
+<13>[134241.821953]  (8)[391:fuelgauged]MTK_FG: [CompensateVoltage] ocv:3765, compensate volt:3702, compensate value:63, r_bat:129, i:4390
+<13>[134241.821963]  (8)[391:fuelgauged]MTK_FG: [fgauge_compensate_battery_voltage] compensate volt:3702, dods1:875, dods:125, r_bat:129
+<13>[134241.821975]  (8)[391:fuelgauged]MTK_FG: [CompensateVoltage] ocv:3706, compensate volt:3642, compensate value:64, r_bat:131, i:4390
+<13>[134241.821985]  (8)[391:fuelgauged]MTK_FG: [fgauge_compensate_battery_voltage] compensate volt:3642, dods1:937, dods:62, r_bat:131
+<13>[134241.821996]  (8)[391:fuelgauged]MTK_FG: [CompensateVoltage] ocv:3687, compensate volt:3620, compensate value:67, r_bat:137, i:4390
+<13>[134241.822007]  (8)[391:fuelgauged]MTK_FG: [fgauge_compensate_battery_voltage] compensate volt:3620, dods1:968, dods:31, r_bat:137
+<13>[134241.822018]  (8)[391:fuelgauged]MTK_FG: [CompensateVoltage] ocv:3649, compensate volt:3577, compensate value:72, r_bat:148, i:4390
+<13>[134241.822028]  (8)[391:fuelgauged]MTK_FG: [fgauge_compensate_battery_voltage] compensate volt:3577, dods1:983, dods:15, r_bat:148
+<13>[134241.822040]  (8)[391:fuelgauged]MTK_FG: [CompensateVoltage] ocv:3620, compensate volt:3549, compensate value:71, r_bat:147, i:4390
+<13>[134241.822050]  (8)[391:fuelgauged]MTK_FG: [fgauge_compensate_battery_voltage] compensate volt:3549, dods1:990, dods:7, r_bat:147
+<13>[134241.822062]  (8)[391:fuelgauged]MTK_FG: [CompensateVoltage] ocv:3564, compensate volt:3489, compensate value:75, r_bat:156, i:4390
+<13>[134241.822072]  (8)[391:fuelgauged]MTK_FG: [fgauge_compensate_battery_voltage] compensate volt:3489, dods1:993, dods:3, r_bat:156
+<13>[134241.822084]  (8)[391:fuelgauged]MTK_FG: [CompensateVoltage] ocv:3564, compensate volt:3489, compensate value:75, r_bat:156, i:4390
+<13>[134241.822093]  (8)[391:fuelgauged]MTK_FG: [fgauge_compensate_battery_voltage] origin volt: 3100, ocv volt: _3564
+<13>[134241.822108]  (8)[391:fuelgauged]MTK_FG: [FGADC] 0,6441,0,3694,11,10,81,5016,5016,75,0,0,1000,0,1000,90,90,120,103,3564,98
+<13>[134241.822126]  (8)[391:fuelgauged]MTK_FG: [fgauge_update_dod] fg_dod_1=90, fg_coulomb_act=33, fg_dod0=90, C_0mA=5016, C_400mA=4916, C_FGCurrent=4907, fg_current_avg=4390, qmax_by: -152412298
+<13>[134241.822140]  (8)[391:fuelgauged]MTK_FG: 1.[FGADC_IQ1](Qmax_T_0mAH 5016,Qmax_T_400mAH 4916,Qmax_T_I 4907, T 30, Tavg 30, I 6441, Iavg 4390, Loading factor 98)
+<13>[134241.822158]  (8)[391:fuelgauged]MTK_FG: 1.[FGADC_IQ2](Vsys 3100,Rbat 156,SW cut off OCV 3564, T 30, Tavg 30, I 6441, Iavg 4390, Loading factor2 98)
+<13>[134241.822178]  (8)[391:fuelgauged]MTK_FG: [fgauge_update_dod]90,33,90,5016,4916,4907,4390,-152412298-5016,4916,4907,30,30,6441,4390,98-3100,156,3564,30,30,6441,4390,98
+<13>[134241.822197]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_SET_SOC, soc 10
+<13>[134241.822215]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_SET_SWOCV, dod0 90
+<13>[134241.822232]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_SET_SWOCV, dod1 90
+<13>[134241.822251]  (8)[391:fuelgauged]MTK_FG: [fg_res] FG_DAEMON_CMD_GET_TRACKING_TIME, tracking time 0
+<13>[134241.822271]  (8)[391:fuelgauged]MTK_FG: [fg_res] FG_DAEMON_CMD_GET_DIFFERENCE_VOLTAGE_UPDATE, difference_voltage_update 20
+<13>[134241.822287]  (8)[391:fuelgauged]MTK_FG: 1.[FGADC_UI_FG]FG version:150329 (FG% 10,UI% 10,tracking Time 0,Qmax_T_0mAH 5016, I 6441, Iavg 4390, T 30, Tavg 30, RTC=10)
+<13>[134241.822295]  (8)[391:fuelgauged]MTK_FG: [fgauge_get_Q_max] Q_max = 5016
+<13>[134241.822303]  (8)[391:fuelgauged]MTK_FG: [fgauge_get_Q_max_high_current] Q_max = 4916
+<13>[134241.822321]  (8)[391:fuelgauged]MTK_FG: 1.[FGADC_CP_T] (V0 4371,D0 0,V30 4032,D30 30,V60 3810,D60 60, V1 4353,R1 127,V31 4020,R31 150,V61 3807,R61 129, Qmax_T_0mAH 5016,Qmax_T_400mAH 4916,T 30,Tavg 30)
+<13>[134241.822339]  (8)[391:fuelgauged]MTK_FG: [FGADC_D0](HW OCV 4138,81 SW OCV 4152,82 RTC 81, VBAT 4148,82, T_avg 33, I 14, is_charging 0, is_charger 1, gap1 30,10,1,3,10,30 D0 19 ui_soc:10 7 embedded 1 plugout 0 )
+<13>[134241.822356]  (8)[391:fuelgauged]MTK_FG: 1.[FGADC_AQ](FG1% 0, OCV1 0, CAR1 0, FG2% 0, OCV2 0, CAR2 0, Qmax_T_new_0mA 0, Qmax_T_0mAH 5016, T 30, Tavg 30, aging factor1 100, age temp_1 0, age temp_2 0, flag 0)
+<13>[134241.822369]  (8)[391:fuelgauged]MTK_FG: 2.[FGADC_AQ](CAR_S 34103, DOD0 90, aging_Q 5016, aging factor_2 100, age_temp1 37, age temp2 28 flag 1)
+<13>[134241.822381]  (8)[391:fuelgauged]MTK_FG: 1.[FGADC_CAL] FG_R% 58, FG_V 3928, UI% 10, ZCV% 57, CAL gap 20,FG_A% 40, CAR_ACT -8726
+<13>[134241.822394]  (8)[391:fuelgauged]MTK_FG: 1.[FGADC_Rbat](Rbat_ZCV 151, Rbat_SOC 171, R_b 106, R_w 46 I 1975, Iavg 4602, ZCV 3904, Vbat 3883)
+<13>[134241.822413]  (8)[391:fuelgauged]MTK_FG: [fg_res] FG_DAEMON_CMD_GET_DURATION_TIME, duration time 10
+<13>[134241.822436]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_IS_CHARGER_EXIST, fg_charger_exist 1
+<13>[134241.822454]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_IS_BATTERY_FULL, is_battery_full 0
+<13>[134241.822472]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_GET_BATTERY_VOLTAGE, fg_voltage 3674
+<13>[134241.822482]  (8)[391:fuelgauged]MTK_FG: [uisoc_shutdown_check] FG 1% + 0(1200) secs shutdown
+<13>[134241.822494]  (8)[391:fuelgauged]MTK_FG: [battery_update]soc: 10 uisoc: 10 uisoc2:  8 time:0 duraction:10 chr:1:1 batfull:0 shutdown_cond:0 
+<13>[134241.822501]  (8)[391:fuelgauged]MTK_FG: UI_SOC==SOC do nothings
+<13>[134241.822513]  (8)[391:fuelgauged]MTK_FG: [uisoc_update_uisoc2]pseudoUI=8 ,UI_SOC2=8 ,UI_SOC=10 ,pseudo1=2 pseudo100=97 fg_coulomb_act_diff:0
+<13>[134241.822530]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_SET_UI_SOC, soc 10
+<7>[134241.822540]  (8)[391:fuelgauged][UI_SOC2][3400 threshold] UI_SOC2=10,UI_SOC=8,charger_exist=1,Avgvbat=3674.
+<13>[134241.822569]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_SET_UI_SOC2, soc 8
+<5>[134241.822583] -(8)[391:fuelgauged]mtk_rtc_hal_common: rtc_spare_reg[0] = {16412, 127, 8}
+<5>[134241.822654]  (8)[391:fuelgauged][fg_res] set rtc = 10
+<13>[134241.822666]  (8)[391:fuelgauged]MTK_FG: FG_DAEMON_CMD_SET_RTC, rtc 10
+<13>[134241.822676]  (8)[391:fuelgauged]MTK_FG: shutdown_cond=0 shutdown_cnt=(0), shutdown_cnt_chr=(0),UI_SOC2=8 
+<13>[134241.822685]  (8)[391:fuelgauged]MTK_FG: [fg_tracking]battery_tracking_time:5240 left:2781 type:3 
+<13>[134241.822698]  (8)[391:fuelgauged]MTK_FG: [battery_update_final]soc: 10 uisoc: 10 uisoc2:  8 bat1:   0 bat2:   0 time:0 duraction:10 chr:1:1 batfull:0 shutdown_cond:0 
+<13>[134241.822706]  (8)[391:fuelgauged]MTK_FG: waiting FG_DAEMON_CMD_NOTIFY_DAEMON from kernel...
+<7>[134241.827958]  (5)[238:bat_routine_thr][BattThermistorConverTemp] g_fg_battery_id=0.
+<7>[134241.827975]  (5)[238:bat_routine_thr]tbat_temp_for_charger tbat_adc=30 , tbat_temp=30.
+<3>[134241.829602]  (8)[238:bat_routine_thr][kernel]AvgVbat 3669,bat_vol 3607, AvgI 331, I 400, VChr 4711, AvgT 30, T 30, ZCV 3698, CHR_Type 1, SOC  10: 10:  8
+<3>[134241.829664]  (8)[238:bat_routine_thr][BAT_thread] bat_chr_prt_dis is 0.
+<3>[134241.829670]  (8)[238:bat_routine_thr][BATTERY]Charger voltage ok !!
+<3>[134241.829890]  (8)[238:bat_routine_thr][PE+]Stop battery_pump_express_charger_check, SOC=10, ta_check_chr_type = 1, charger_type = 1
+<3>[134241.835629]  (4)[238:bat_routine_thr][BATTERY][charger_v_charger_min_status]v_charger_min_count = 0.
+<3>[134241.836244]  (8)[238:bat_routine_thr][BATTERY] Default CC mode charging : 50000, input current = 50000
+<3>[134241.837195]  (4)[238:bat_routine_thr]charging_set_cv_voltage set_cv_voltage=4400000
+<3>[134241.838101]  (5)[238:bat_routine_thr][bq25890 reg@][0x0]=0x8 
+<3>[134241.839119]  (5)[238:bat_routine_thr][bq25890 reg@][0x1]=0x5  (0)[238:bat_routine_thr][bq25890 reg@][0x2]=0x1 
+<3>[134241.839454]  (0)[238:bat_routine_thr][bq25890 reg@][0x3]=0x1a  (8)[238:bat_routine_thr][bq25890 reg@][0x4]=0x7 
+<3>[134241.839724]  (8)[238:bat_routine_thr][bq25890 reg@][0x5]=0x11  (8)[238:bat_routine_thr][bq25890 reg@][0x6]=0x8e 
+<3>[134241.839948]  (8)[238:bat_routine_thr][bq25890 reg@][0x7]=0x9d  (8)[238:bat_routine_thr][bq25890 reg@][0x8]=0x77 
+<3>[134241.840233]  (8)[238:bat_routine_thr][bq25890 reg@][0x9]=0x44  (9)[238:bat_routine_thr][bq25890 reg@][0xa]=0x73 
+<3>[134241.840607]  (9)[238:bat_routine_thr][bq25890 reg@][0xb]=0x56  (8)[238:bat_routine_thr][bq25890 reg@][0xc]=0x0 
+<3>[134241.840861]  (8)[238:bat_routine_thr][bq25890 reg@][0xd]=0x14  (8)[238:bat_routine_thr][bq25890 reg@][0xe]=0x48 
+<3>[134241.841086]  (8)[238:bat_routine_thr][bq25890 reg@][0xf]=0x49  (9)[238:bat_routine_thr][bq25890 reg@][0x10]=0x3e 
+<3>[134241.841293]  (9)[238:bat_routine_thr][bq25890 reg@][0x11]=0x95  (9)[238:bat_routine_thr][bq25890 reg@][0x12]=0x8 
+<3>[134241.841542]  (9)[238:bat_routine_thr][bq25890 reg@][0x13]=0x48  (4)[238:bat_routine_thr][bq25890 reg@][0x14]=0x6 
+<3>[134241.842949]  (4)[238:bat_routine_thr][PE+]Ibat=448, Ilim=500, Vbus=4700, err=0, Ichg=400, Vbat=3744, ChrStat=2, CHGEN=1, VDPM=0
+<2>[134241.940268]  (4)[715:UICompThread_0][VcoreFS]1. request: 0, opp: 0
+<2>[134241.940282]  (4)[715:UICompThread_0][VcoreFS]2. request: 0, opp: 0 (4)[715:UICompThread_0][VcoreFS]3. request: 0, opp: 0
+<2>[134241.940297]  (4)[715:UICompThread_0][VcoreFS]kr opp: 0, 0, -1, -1, -1, -1, 
+<2>[134241.940304]  (4)[715:UICompThread_0][VcoreFS]kicker: 0, opp: 0, dvfs_opp: 0, curr_opp: 0
+<2>[134241.940330]  (4)[715:UICompThread_0][VcoreFS]opp: 0, vcore: 1000000(1000000), fddr: 1600000(1600000) [O][O]
+<3>[134241.940347] -(4)[715:UICompThread_0][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 0(0)
+<2>[134241.940451]  (4)[715:UICompThread_0][VcoreFS]opp: 0, faxi: 156000(156000) [O]
+<2>[134241.940460]  (4)[715:UICompThread_0][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<4>[134241.970845]  (4)[1620:Binder_5][Power/PPM] Switch PPM mode to Low_Power
+<4>[134241.970860]  (4)[1620:Binder_5][Power/PPM] @ppm_hica_mode_change_cb: ppm mode changed to 0
+<4>[134241.970927]  (4)[1620:Binder_5][Power/PPM] (0x230)(14346)(0)[4LL_L]: (0)(0)(4)(4) (0)(0)(4)(4) (0)(0)(0)(0) 
+<5>[134241.971853]  (8)[202:hps_main]CPU9: shutdown
+<6>[134241.973046]  (8)[202:hps_main]psci: CPU9 killed.
+<3>[134241.974257]  (8)[202:hps_main][CPUHVFS] (0) [0019dc5e] cluster2 off, pause = 0x0, swctrl = 0x5ff0 (0xf4eff)
+<5>[134241.977151]  (5)[202:hps_main]CPU8: shutdown
+<4>[134241.977857]  (5)[202:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+<6>[134241.978810]  (5)[202:hps_main]psci: CPU8 killed.
+<4>[134241.980909]  (1)[202:hps_main][HPS] (0xF0E1)<4>(4)(2) action end (272)(500)(0) (0)(0)(1) (4)(4)(0)(4)(4)(0) (0)(272)(0)(0) <4>(4)(0)
+<7>[134242.052612]  (4)[2455:Binder_B][ALS/PS] ps_set_delay (200)
+<7>[134242.052627]  (4)[2455:Binder_B]<ALS/PS>  ps_delay 200000000 ns
+<7>[134242.052795]  (4)[2455:Binder_B]<ALS/PS> ps_store_batch buf=0
+<7>[134242.052804]  (4)[2455:Binder_B]<ALS/PS>  ps_store_batch not supported
+<7>[134242.052809]  (4)[2455:Binder_B]<ALS/PS>  ps_store_batch done: 0
+<3>[134242.052995]  (4)[2455:Binder_B]<BATCHDEV> batch_store_batch 494 : batch_store_delay param: handle 7, flag:0 samplingPeriodNs:200000000, maxBatchReportLatencyNs: 0
+<3>[134242.053614]  (6)[2455:Binder_B]<BATCHDEV> batch_store_active 345 :  batch_store_active handle=7 ,en=1
+<7>[134242.053820]  (6)[2455:Binder_B]<ALS/PS> ps_store_active buf=1
+<7>[134242.053829]  (6)[2455:Binder_B]<ALS/PS> PS enable data
+<7>[134242.053834]  (6)[2455:Binder_B][ALS/PS] obj_ipi_data als enable value = 1
+<7>[134242.054021]  (0)[2455:Binder_B]<ALS/PS> ps real enable
+<7>[134242.054036]  (0)[2455:Binder_B]<ALS/PS>  ps_store_active done
+<3>[134242.057397]  (5)[4300:Binder_10]<BATCHDEV> batch_store_batch 494 : batch_store_delay param: handle 0, flag:0 samplingPeriodNs:20000000, maxBatchReportLatencyNs: 0
+<3>[134242.057927]  (5)[4300:Binder_10]<BATCHDEV> batch_store_active 345 :  batch_store_active handle=0 ,en=1
+<2>[134242.142898]  (4)[4297:kworker/u20:5][VcoreFS]1. request: 0, opp: -1
+<2>[134242.142913]  (4)[4297:kworker/u20:5][VcoreFS]2. request: 0, opp: -1 (4)[4297:kworker/u20:5][VcoreFS]3. request: 0, opp: -1
+<2>[134242.142929]  (4)[4297:kworker/u20:5][VcoreFS]kr opp: -1, 0, -1, -1, -1, -1, 
+<2>[134242.142935]  (4)[4297:kworker/u20:5][VcoreFS]kicker: 0, opp: -1, dvfs_opp: 0, curr_opp: 0
+<2>[134242.142953]  (4)[4297:kworker/u20:5][VcoreFS]opp: 0, vcore: 1000000(1000000), fddr: 1600000(1600000) [O][O]
+<3>[134242.142969] -(4)[4297:kworker/u20:5][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 0(0)
+<2>[134242.143072]  (4)[4297:kworker/u20:5][VcoreFS]opp: 0, faxi: 156000(156000) [O]
+<2>[134242.143083]  (4)[4297:kworker/u20:5][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<4>[134242.153320]  (6)[1434:PerfServiceMana][Power/PPM] (0x230)(14550)(0)[4LL_L]->[LL_ONLY]: (0)(0)(4)(4) (0)(0)(0)(0) (0)(0)(0)(0) 
+<4>[134242.153446]  (6)[1434:PerfServiceMana][Power/PPM] (0x230)(14550)(0)[LL_ONLY]: (0)(0)(1)(4) (0)(0)(0)(0) (0)(0)(0)(0) 
+<3>[134242.153455]  (6)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134242.153601]  (6)[1434:PerfServiceMana][Power/PPM] (0x230)(14550)(0)[LL_ONLY]: (15)(0)(1)(4) (0)(0)(0)(0) (0)(0)(0)(0) 
+<3>[134242.153846]  (6)[1434:PerfServiceMana][VcoreFS_SPM]perform BW enable: 0, SPM_SRC2_MASK: 0x4000107
+<4>[134242.153855]  (6)[1434:PerfServiceMana][Power/PPM] sys boost by PERFSERV: req_freq = 0, target_boost_freq = 0
+<2>[134242.153881]  (6)[1434:PerfServiceMana]fliper polling disable ---
+<2>[134242.153888]  (6)[1434:PerfServiceMana][VcoreFS]1. request: 1, opp: -1
+<2>[134242.153895]  (6)[1434:PerfServiceMana][VcoreFS]2. request: 1, opp: -1 (6)[1434:PerfServiceMana][VcoreFS]3. request: 1, opp: -1
+<2>[134242.153906]  (6)[1434:PerfServiceMana][VcoreFS]kr opp: -1, -1, -1, -1, -1, -1, 
+<2>[134242.153913]  (6)[1434:PerfServiceMana][VcoreFS]kicker: 1, opp: -1, dvfs_opp: 1, curr_opp: 0
+<2>[134242.154018]  (6)[1434:PerfServiceMana][VcoreFS]opp: 1, faxi: 136500(156000) [O]
+<2>[134242.154626]  (6)[1434:PerfServiceMana][VcoreFS]opp: 1, vcore: 900000(1000000), fddr: 1270000(1600000) [O][O]
+<3>[134242.154644] -(6)[1434:PerfServiceMana][VcoreFS_SPM]req: 0x0, target: 0x1000000
+<2>[134242.154650]  (6)[1434:PerfServiceMana][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<5>[134242.154660]  (4)[202:hps_main]CPU7: shutdown
+<6>[134242.155552]  (4)[202:hps_main]psci: CPU7 killed.
+<5>[134242.158233]  (3)[202:hps_main]CPU6: shutdown
+<6>[134242.159124]  (3)[202:hps_main]psci: CPU6 killed.
+<5>[134242.162213]  (0)[202:hps_main]CPU5: shutdown
+<6>[134242.163183]  (0)[202:hps_main]psci: CPU5 killed.
+<3>[134242.164883]  (0)[202:hps_main][CPUHVFS] (0) [0019f4c4] cluster1 off, pause = 0x0, swctrl = 0x5ff0 (0xfcfff)
+<5>[134242.167666]  (0)[202:hps_main]CPU4: shutdown
+<6>[134242.169476]  (0)[202:hps_main]psci: CPU4 killed.
+<4>[134242.171391]  (0)[202:hps_main][HPS] (0x9F03)<4>(4)(0) action end (161)(500)(0) (0)(1)(0) (4)(0)(0)(4)(0)(0) (0)(161)(0)(0) <4>(0)(0)
+<4>[134242.251817]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134242.293182]  (0)[202:hps_main]CPU3: shutdown
+<6>[134242.294130]  (0)[202:hps_main]psci: CPU3 killed.
+<4>[134242.295874]  (0)[202:hps_main][HPS] (0x9F03)<4>(0)(0) action end (204)(300)(0) (0)(0)(0) (4)(0)(0)(1)(0)(0) (0)(204)(0)(0) <3>(0)(0)
+<4>[134242.380641]  (0)[202:hps_main][Power/PPM] (0x210)(13865)(0)[LL_ONLY]->[4LL_L]: (15)(0)(1)(4) (15)(0)(0)(4) (0)(0)(0)(0) 
+<3>[134242.380671]  (0)[202:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+<7>[134242.421465] -(3)[0:swapper/3]CPU3: Booted secondary processor
+<6>[134242.421488] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+<6>[134242.421507] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+<6>[134242.421632] -(3)[0:swapper/3]CPU3: update cpu_capacity 316
+<4>[134242.422645]  (3)[202:hps_main][HPS] (0x9F02)<3>(0)(0) action end (268)(500)(0) (1)(0)(0) (4)(4)(0)(1)(0)(0) (257)(0)(0)(0) <4>(0)(0)
+<4>[134242.453491]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134242.584402]  (0)[202:hps_main]CPU3: shutdown
+<6>[134242.585376]  (0)[202:hps_main]psci: CPU3 killed.
+<4>[134242.586933]  (0)[202:hps_main][HPS] (0x9F03)<4>(0)(0) action end (189)(300)(0) (1)(0)(0) (4)(4)(0)(1)(0)(0) (0)(189)(0)(0) <3>(0)(0)
+<4>[134242.651662]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134242.748541]  (0)[202:hps_main]CPU2: shutdown
+<6>[134242.749469]  (0)[202:hps_main]psci: CPU2 killed.
+<4>[134242.751113]  (0)[202:hps_main][HPS] (0x9F03)<3>(0)(0) action end (112)(200)(0) (1)(0)(0) (4)(4)(0)(1)(0)(0) (0)(112)(0)(0) <2>(0)(0)
+<3>[134242.818243]  (0)[27697:kworker/0:0]AEE_MONITOR_SET[status]: 0x1
+<4>[134242.851692]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134242.952492] -(2)[0:swapper/2]CPU2: Booted secondary processor
+<6>[134242.952516] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+<6>[134242.952534] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+<6>[134242.952660] -(2)[0:swapper/2]CPU2: update cpu_capacity 316
+<4>[134242.953646]  (2)[202:hps_main][HPS] (0x9F02)<2>(0)(0) action end (195)(460)(0) (1)(0)(0) (4)(4)(0)(1)(0)(0) (179)(0)(0)(0) <3>(0)(0)
+<4>[134243.051686]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134243.194388]  (2)[202:hps_main][Power/PPM] (0x210)(13853)(0)[4LL_L]->[LL_ONLY]: (15)(0)(1)(4) (15)(0)(0)(0) (0)(0)(0)(0) 
+<3>[134243.194408]  (2)[202:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134243.234553]  (0)[202:hps_main][Power/PPM] (0x210)(13853)(0)[LL_ONLY]->[4LL_L]: (15)(0)(1)(4) (15)(0)(0)(4) (0)(0)(0)(0) 
+<3>[134243.234573]  (0)[202:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134243.251690]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134243.451677]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134243.476431]  (0)[202:hps_main]CPU2: shutdown
+<6>[134243.477379]  (0)[202:hps_main]psci: CPU2 killed.
+<4>[134243.479030]  (0)[202:hps_main][HPS] (0x9F03)<3>(0)(0) action end (124)(200)(0) (1)(0)(0) (4)(4)(0)(1)(0)(0) (0)(124)(0)(0) <2>(0)(0)
+<4>[134243.651667]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<5>[134243.680655]  (0)[202:hps_main]CPU1: shutdown
+<6>[134243.681844]  (0)[202:hps_main]psci: CPU1 killed.
+<4>[134243.683740]  (0)[202:hps_main][HPS] (0x9F03)<2>(0)(0) action end (9)(100)(0) (0)(0)(0) (4)(4)(0)(1)(0)(0) (0)(9)(0)(0) <1>(0)(0)
+<4>[134243.742533]  (0)[1129:FastMixer][Power/clkbuf]clk_buf_ctrl: id=3, onoff=1, is_flightmode_on=0
+<4>[134243.742858]  (0)[1129:FastMixer]mtk_soc_pcm_dl2_close
+<4>[134243.743125]  (0)[1129:FastMixer]mtk_soc_pcm_dl2_close
+<4>[134243.743660]  (0)[1129:FastMixer]SetDL2Buffer u4BufferSize = 4096 pucVirtBufAddr = ffffff80079aa000 pucPhysBufAddr = 0xfcf80000
+<4>[134243.744057]  (0)[1129:FastMixer]mtk_pcm_dl2_prepare format = 10 SNDRV_PCM_FORMAT_S32_LE = 10 SNDRV_PCM_FORMAT_U32_LE = 12
+<4>[134243.745667]  (0)[1129:FastMixer]Speaker_Amp_Set() value = 1
+<4>[134243.745667]  
+<4>[134243.745679]  (0)[1129:FastMixer]TurnOnDacPower
+<4>[134243.745738]  (0)[1129:FastMixer]Ana_Set_Reg  mask = 0x1 ret = 0 Reg_Value = 0x0
+<4>[134243.745755]  (0)[1129:FastMixer]Ana_Set_Reg  mask = 0xf000 ret = 0 Reg_Value = 0x0
+<4>[134243.746405]  (0)[1129:FastMixer]Speaker_Amp_Change
+<7>[134243.746553]  (0)[1129:FastMixer]====AudDrv_GPIO_EXTAMP_Select: line=432, mode=3
+<4>[134243.750289]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(11402)(0)[4LL_L]: (0)(0)(1)(4) (15)(0)(0)(4) (0)(0)(0)(0) 
+<4>[134243.750432]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(11402)(0)[4LL_L]: (0)(0)(1)(4) (0)(0)(0)(4) (0)(0)(0)(0) 
+<4>[134243.750712]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(11402)(0)[4LL_L]: (0)(0)(1)(4) (0)(0)(4)(4) (0)(0)(0)(0) 
+<7>[134243.752967] -(4)[0:swapper/4]CPU4: Booted secondary processor
+<6>[134243.753011] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+<4>[134243.753026]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(11402)(0)[4LL_L]: (0)(0)(4)(4) (0)(0)(4)(4) (0)(0)(0)(0) 
+<6>[134243.753072] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+<3>[134243.753114]  (0)[1434:PerfServiceMana][VcoreFS_SPM]perform BW enable: 1, SPM_SRC2_MASK: 0x6000107
+<4>[134243.753125]  (0)[1434:PerfServiceMana][Power/PPM] sys boost by PERFSERV: req_freq = 0, target_boost_freq = 0
+<2>[134243.753150]  (0)[1434:PerfServiceMana][VcoreFS]1. request: 1, opp: 0
+<2>[134243.753159]  (0)[1434:PerfServiceMana][VcoreFS]2. request: 1, opp: 0 (0)[1434:PerfServiceMana][VcoreFS]3. request: 1, opp: 0
+<2>[134243.753174]  (0)[1434:PerfServiceMana][VcoreFS]kr opp: -1, 0, -1, -1, -1, -1, 
+<2>[134243.753182]  (0)[1434:PerfServiceMana][VcoreFS]kicker: 1, opp: 0, dvfs_opp: 0, curr_opp: 1
+<2>[134243.753212]  (0)[1434:PerfServiceMana][VcoreFS]opp: 0, vcore: 1000000(900000), fddr: 1600000(1270000) [O][O]
+<6>[134243.753284] -(4)[0:swapper/4]CPU4: update cpu_capacity 432
+<3>[134243.753772] -(0)[1434:PerfServiceMana][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 408(0)
+<2>[134243.753890]  (0)[1434:PerfServiceMana][VcoreFS]opp: 0, faxi: 156000(136500) [O]
+<2>[134243.753929]  (0)[1434:PerfServiceMana][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<4>[134243.753993]  (0)[1434:PerfServiceMana][Power/PPM] Switch PPM mode to Performance
+<4>[134243.754001]  (0)[1434:PerfServiceMana][Power/PPM] @ppm_hica_mode_change_cb: ppm mode changed to 2
+<4>[134243.754040]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(11402)(0)[4LL_L]: (0)(0)(4)(4) (0)(0)(4)(4) (0)(0)(2)(2) 
+<3>[134243.754049]  (0)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134243.755234]  (4)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+<3>[134243.755277]  (4)[202:hps_main][CPUHVFS] (0) [001ac056] cluster1 on, pause = 0x0, swctrl = 0x2ff0 (0xecd00)
+<4>[134243.756050]  (4)[202:hps_main][HPS] [Info]Condition break!!
+<4>[134243.756067]  (4)[202:hps_main][HPS] (0x9000)<1>(0)(0) action break!! (100)(600)(0) (0)(0)(0) (4)(4)(0)(1)(4)(0)-->(4)(4)(2)(4)(4)(2) (0)(0)(0)(0) <1>(4)(0)
+<7>[134243.763714]  (0)[1129:FastMixer]====AudDrv_GPIO_EXTAMP_Select: line=432, mode=3
+<7>[134243.771628]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_L:(0,0): freq=1846000(1846000), volt =108000(108000), on=2, cur=1781000, cci(923000,923000)
+<11>[134243.787343]  (0)[1:init]init: service 'wechatproxy' still running, return directly
+<4>[134243.787510]  (0)[1434:PerfServiceMana][Power/PPM] Switch PPM mode to Low_Power
+<4>[134243.787519]  (0)[1434:PerfServiceMana][Power/PPM] @ppm_hica_mode_change_cb: ppm mode changed to 0
+<4>[134243.787563]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(14360)(0)[4LL_L]: (0)(0)(4)(4) (0)(0)(4)(4) (0)(0)(0)(0) 
+<7>[134243.788178] -(1)[0:swapper/1]CPU1: Booted secondary processor
+<6>[134243.788193] -(1)[0:swapper/1]Detected VIPT I-cache on CPU1
+<6>[134243.788208] -(1)[0:swapper/1]CPU1: found redistributor 1 @ffffff80000a0000
+<6>[134243.788316] -(1)[0:swapper/1]CPU1: update cpu_capacity 316
+<7>[134243.789640] -(2)[0:swapper/2]CPU2: Booted secondary processor
+<6>[134243.789660] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+<6>[134243.789676] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+<6>[134243.789781] -(2)[0:swapper/2]CPU2: update cpu_capacity 316
+<7>[134243.791192] -(3)[0:swapper/3]CPU3: Booted secondary processor
+<6>[134243.791211] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+<6>[134243.791229] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+<6>[134243.791338] -(3)[0:swapper/3]CPU3: update cpu_capacity 316
+<7>[134243.792872] -(5)[0:swapper/5]CPU5: Booted secondary processor
+<6>[134243.792892] -(5)[0:swapper/5]Detected VIPT I-cache on CPU5
+<6>[134243.792908] -(5)[0:swapper/5]CPU5: found redistributor 101 @ffffff8000120000
+<6>[134243.793018] -(5)[0:swapper/5]CPU5: update cpu_capacity 432
+<7>[134243.794960] -(6)[0:swapper/6]CPU6: Booted secondary processor
+<6>[134243.794977] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+<6>[134243.794994] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+<6>[134243.795101] -(6)[0:swapper/6]CPU6: update cpu_capacity 432
+<3>[134243.796101] -(4)[202:hps_main]hps task wake up fail 0
+<7>[134243.796590] -(7)[0:swapper/7]CPU7: Booted secondary processor
+<6>[134243.796602] -(7)[0:swapper/7]Detected VIPT I-cache on CPU7
+<6>[134243.796618] -(7)[0:swapper/7]CPU7: found redistributor 103 @ffffff8000160000
+<6>[134243.796732] -(7)[0:swapper/7]CPU7: update cpu_capacity 432
+<4>[134243.797714]  (4)[202:hps_main][HPS] (0xFF03)<1>(1)(0) action end (186)(900)(0) (0)(0)(0) (4)(4)(0)(4)(4)(0) (0)(186)(0)(0) <4>(4)(0)
+<3>[134243.818434]  (0)[27697:kworker/0:0]AEE_MONITOR_SET[status]: 0x1
+<4>[134243.851657]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<4>[134243.973537]  (0)[4300:Binder_10][Power/PPM] Switch PPM mode to Performance
+<4>[134243.973553]  (0)[4300:Binder_10][Power/PPM] @ppm_hica_mode_change_cb: ppm mode changed to 2
+<4>[134243.973604]  (0)[4300:Binder_10][Power/PPM] (0x230)(15560)(0)[4LL_L]: (0)(0)(4)(4) (0)(0)(4)(4) (0)(0)(2)(2) 
+<4>[134243.976224]  (6)[202:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+<7>[134243.976698] -(8)[0:swapper/8]CPU8: Booted secondary processor
+<6>[134243.976720] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+<6>[134243.976742] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+<6>[134243.976870] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+<4>[134243.977917]  (7)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 741000
+<3>[134243.977932]  (7)[202:hps_main][CPUHVFS] (0) [001adcd6] cluster2 on, pause = 0x0, swctrl = 0x2ff0 (0xfce22)
+<7>[134243.979228] -(9)[0:swapper/9]CPU9: Booted secondary processor
+<6>[134243.979237] -(9)[0:swapper/9]Detected PIPT I-cache on CPU9
+<6>[134243.979246] -(9)[0:swapper/9]CPU9: found redistributor 201 @ffffff80001a0000
+<6>[134243.979326] -(9)[0:swapper/9]CPU9: update cpu_capacity 1024
+<4>[134243.980531]  (5)[202:hps_main][HPS] (0x7F03)<4>(4)(0) action end (327)(400)(0) (0)(1)(0) (4)(4)(2)(4)(4)(2) (0)(327)(0)(0) <4>(4)(2)
+<4>[134244.051699]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<2>[134244.054728]  (6)[715:UICompThread_0][VcoreFS]1. request: 0, opp: 0
+<2>[134244.054739]  (6)[715:UICompThread_0][VcoreFS]2. request: 0, opp: 0 (6)[715:UICompThread_0][VcoreFS]3. request: 0, opp: 0
+<2>[134244.054753]  (6)[715:UICompThread_0][VcoreFS]kr opp: 0, 0, -1, -1, -1, -1, 
+<2>[134244.054759]  (6)[715:UICompThread_0][VcoreFS]kicker: 0, opp: 0, dvfs_opp: 0, curr_opp: 0
+<2>[134244.054776]  (6)[715:UICompThread_0][VcoreFS]opp: 0, vcore: 1000000(1000000), fddr: 1600000(1600000) [O][O]
+<3>[134244.054792] -(6)[715:UICompThread_0][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 0(0)
+<2>[134244.054896]  (6)[715:UICompThread_0][VcoreFS]opp: 0, faxi: 156000(156000) [O]
+<2>[134244.054903]  (6)[715:UICompThread_0][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<3>[134244.058128]  (5)[4218:Binder_E]<BATCHDEV> batch_store_active 345 :  batch_store_active handle=7 ,en=0
+<7>[134244.058380]  (5)[4218:Binder_E]<ALS/PS> ps_store_active buf=0
+<7>[134244.058389]  (5)[4218:Binder_E]<ALS/PS> PS disable
+<7>[134244.058399]  (5)[4218:Binder_E][ALS/PS] obj_ipi_data als enable value = 0
+<7>[134244.058566]  (5)[4218:Binder_E]<ALS/PS> ps real disable
+<7>[134244.058571]  (5)[4218:Binder_E]<ALS/PS>  ps_store_active done
+<3>[134244.060492]  (9)[1907:Binder_6]<BATCHDEV> batch_store_active 345 :  batch_store_active handle=0 ,en=0
+<4>[134244.197838]  (8)[1434:PerfServiceMana][Power/PPM] [WARNING]@ppm_userlimit_max_cpu_core_proc_write: max_core(0) < min_core(2), overwrite min core!
+<4>[134244.197869]  (8)[1434:PerfServiceMana][Power/PPM] (0x230)(13351)(0)[4LL_L]: (0)(0)(4)(4) (0)(0)(4)(4) (0)(0)(0)(0) 
+<4>[134244.198002]  (8)[1434:PerfServiceMana][Power/PPM] (0x230)(13351)(0)[4LL_L]->[LL_ONLY]: (0)(0)(4)(4) (0)(0)(0)(0) (0)(0)(0)(0) 
+<3>[134244.198008]  (8)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134244.198069]  (8)[1434:PerfServiceMana][Power/PPM] (0x230)(13351)(0)[LL_ONLY]: (0)(0)(1)(4) (0)(0)(0)(0) (0)(0)(0)(0) 
+<3>[134244.198073]  (8)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134244.198142]  (8)[1434:PerfServiceMana][Power/PPM] (0x230)(13351)(0)[LL_ONLY]: (15)(0)(1)(4) (0)(0)(0)(0) (0)(0)(0)(0) 
+<3>[134244.198292]  (8)[1434:PerfServiceMana][VcoreFS_SPM]perform BW enable: 1, SPM_SRC2_MASK: 0x6000107
+<4>[134244.198298]  (8)[1434:PerfServiceMana][Power/PPM] sys boost by PERFSERV: req_freq = 0, target_boost_freq = 0
+<2>[134244.198326]  (8)[1434:PerfServiceMana][VcoreFS]1. request: 1, opp: -1
+<2>[134244.198331]  (8)[1434:PerfServiceMana][VcoreFS]2. request: 1, opp: -1 (8)[1434:PerfServiceMana][VcoreFS]3. request: 1, opp: -1
+<2>[134244.198340]  (8)[1434:PerfServiceMana][VcoreFS]kr opp: 0, -1, -1, -1, -1, -1, 
+<2>[134244.198344]  (8)[1434:PerfServiceMana][VcoreFS]kicker: 1, opp: -1, dvfs_opp: 0, curr_opp: 0
+<2>[134244.198357]  (8)[1434:PerfServiceMana][VcoreFS]opp: 0, vcore: 1000000(1000000), fddr: 1600000(1600000) [O][O]
+<3>[134244.198371] -(8)[1434:PerfServiceMana][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 0(0)
+<2>[134244.198472]  (8)[1434:PerfServiceMana][VcoreFS]opp: 0, faxi: 156000(156000) [O]
+<2>[134244.198478]  (8)[1434:PerfServiceMana][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<5>[134244.199039]  (4)[202:hps_main]CPU9: shutdown
+<6>[134244.200266]  (4)[202:hps_main]psci: CPU9 killed.
+<4>[134244.201740]  (4)[202:hps_main][HPS] [Info]Condition break!!
+<4>[134244.201764]  (4)[202:hps_main][HPS] (0x7F03)<4>(4)(2) action break!! (198)(600)(0) (0)(0)(0) (4)(4)(0)(4)(4)(0)-->(4)(0)(0)(1)(0)(0) (0)(198)(0)(0) <4>(4)(0)
+<2>[134244.221938]  (4)[4318:kworker/u20:6][VcoreFS]1. request: 0, opp: -1
+<2>[134244.221953]  (4)[4318:kworker/u20:6][VcoreFS]2. request: 0, opp: -1 (4)[4318:kworker/u20:6][VcoreFS]3. request: 0, opp: -1
+<2>[134244.221968]  (4)[4318:kworker/u20:6][VcoreFS]kr opp: -1, -1, -1, -1, -1, -1, 
+<2>[134244.221974]  (4)[4318:kworker/u20:6][VcoreFS]kicker: 0, opp: -1, dvfs_opp: 1, curr_opp: 0
+<2>[134244.222080]  (4)[4318:kworker/u20:6][VcoreFS]opp: 1, faxi: 136500(156000) [O]
+<2>[134244.222121]  (4)[4318:kworker/u20:6][VcoreFS]opp: 1, vcore: 900000(1000000), fddr: 1270000(1600000) [O][O]
+<3>[134244.222138] -(4)[4318:kworker/u20:6][VcoreFS_SPM]req: 0x0, target: 0x1000000
+<2>[134244.222143]  (4)[4318:kworker/u20:6][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<5>[134244.243469]  (7)[202:hps_main]CPU3: shutdown
+<6>[134244.244310]  (7)[202:hps_main]psci: CPU3 killed.
+<5>[134244.246889]  (4)[202:hps_main]CPU7: shutdown
+<6>[134244.247790]  (4)[202:hps_main]psci: CPU7 killed.
+<5>[134244.250607]  (4)[202:hps_main]CPU6: shutdown
+<6>[134244.251596]  (4)[202:hps_main]psci: CPU6 killed.
+<5>[134244.254300]  (4)[202:hps_main]CPU5: shutdown
+<6>[134244.255238]  (4)[202:hps_main]psci: CPU5 killed.
+<3>[134244.256726]  (4)[202:hps_main][CPUHVFS] (0) [001b0086] cluster1 off, pause = 0x0, swctrl = 0x5ff0 (0xfcfff)
+<5>[134244.259837]  (0)[202:hps_main]CPU4: shutdown
+<6>[134244.261694]  (8)[202:hps_main]psci: CPU4 killed.
+<3>[134244.262892]  (8)[202:hps_main][CPUHVFS] (0) [001b0150] cluster2 off, pause = 0x0, swctrl = 0x5ff0 (0xfcfff)
+<5>[134244.263708]  (0)[202:hps_main]CPU8: shutdown
+<4>[134244.264076]  (0)[202:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+<6>[134244.265165]  (0)[202:hps_main]psci: CPU8 killed.
+<4>[134244.267114]  (0)[202:hps_main][HPS] (0x7F03)<4>(4)(1) action end (239)(249)(0) (0)(0)(1) (4)(0)(0)(1)(0)(0) (0)(239)(0)(0) <3>(0)(0)
+<4>[134244.307265]  (0)[202:hps_main][Power/PPM] (0x230)(8278)(1)[LL_ONLY]->[L_ONLY]: (15)(0)(0)(0) (8)(0)(1)(4) (0)(0)(0)(0) 
+<3>[134244.307291]  (0)[202:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+<7>[134244.309467] -(4)[0:swapper/4]CPU4: Booted secondary processor
+<6>[134244.309513] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+<6>[134244.309562] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+<6>[134244.309799] -(4)[0:swapper/4]CPU4: update cpu_capacity 432
+<4>[134244.312058]  (0)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+<3>[134244.312074]  (0)[202:hps_main][CPUHVFS] (0) [001b079b] cluster1 on, pause = 0x0, swctrl = 0x2ff0 (0xecd00)
+<7>[134244.313093] -(5)[0:swapper/5]CPU5: Booted secondary processor
+<6>[134244.313104] -(5)[0:swapper/5]Detected VIPT I-cache on CPU5
+<6>[134244.313116] -(5)[0:swapper/5]CPU5: found redistributor 101 @ffffff8000120000
+<6>[134244.313238] -(5)[0:swapper/5]CPU5: update cpu_capacity 432
+<7>[134244.314576] -(6)[0:swapper/6]CPU6: Booted secondary processor
+<6>[134244.314586] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+<6>[134244.314597] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+<6>[134244.314705] -(6)[0:swapper/6]CPU6: update cpu_capacity 432
+<5>[134244.316816]  (5)[202:hps_main]CPU2: shutdown
+<6>[134244.317753]  (5)[202:hps_main]psci: CPU2 killed.
+<5>[134244.320330]  (5)[202:hps_main]CPU1: shutdown
+<6>[134244.321286]  (5)[202:hps_main]psci: CPU1 killed.
+<7>[134244.322637]  (5)[202:hps_main][;34m[TEEI][TZDriver]cpu down prepare ************************
+<7>[134244.322637] [0m[;34m[TEEI][TZDriver]current on line cpu [0]
+<7>[134244.322637] [0m[;34m[TEEI][TZDriver]current on line cpu [4]
+<7>[134244.322637] [0m[;34m[TEEI][TZDriver]current on line cpu [5]
+<7>[134244.322637] [0m[;34m[TEEI][TZDriver]current on line cpu [6]
+<7>[134244.322637] [0m[;34m[TEEI][TZDriver][tz_driver_cpu_callback][368]brefore cpumask set cpu
+<7>[134244.322637] [0m[;34m[TEEI][TZDriver][tz_driver_cpu_callback][374]after cpumask set cpu
+<7>[134244.322637] [0m[;34m[TEEI][TZDriver]current cpu id  
+<7>[134244.322637] [0m[;34m[TEEI][TZDriver]change cpu id = [6]
+<7>[134244.322637] [0m
+<3>[134244.322699]  (5)[202:hps_main][CPUHVFS] (0) [001b08f8] cluster0 off, pause = 0x0, swctrl = 0x5ff0 (0xe4dff)
+<5>[134244.325161]  (5)[202:hps_main]CPU0: shutdown
+<6>[134244.327220]  (5)[202:hps_main]psci: CPU0 killed.
+<7>[134244.328535]  (5)[202:hps_main][;34m[TEEI][TZDriver]cpu down success ***********************
+<7>[134244.328535] [0m
+<4>[134244.329236]  (5)[202:hps_main][HPS] (0x7F03)<3>(0)(0) action end (173)(210)(0) (1)(0)(0) (0)(4)(0)(0)(1)(0) (0)(173)(0)(0) (0)<3>(0)
+<7>[134244.331601]  (4)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_L:(8,0): freq=1846000(1846000), volt =109000(109000), on=3, cur=1781000, cci(923000,923000)
+<4>[134244.369374]  (4)[202:hps_main][Power/PPM] (0x230)(16237)(1)[L_ONLY]->[4L_LL]: (15)(0)(0)(4) (15)(0)(1)(4) (0)(0)(0)(0) 
+<3>[134244.369397]  (4)[202:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+<3>[134244.405019]  (6)[392:batterywarning][Battery] show_BatteryNotify : 0
+<7>[134244.489878]  (5)[202:hps_main][;34m[TEEI][TZDriver]cpu down prepare ************************
+<7>[134244.489878] [0m[;34m[TEEI][TZDriver]current on line cpu [4]
+<7>[134244.489878] [0m[;34m[TEEI][TZDriver]current on line cpu [5]
+<7>[134244.489878] [0m[;34m[TEEI][TZDriver]current on line cpu [6]
+<7>[134244.489878] [0m[;34m[TEEI][TZDriver][tz_driver_cpu_callback][368]brefore cpumask set cpu
+<7>[134244.489878] [0m[;34m[TEEI][TZDriver][tz_driver_cpu_callback][374]after cpumask set cpu
+<7>[134244.489878] [0m[;34m[TEEI][TZDriver]current cpu id  
+<7>[134244.489878] [0m[;34m[TEEI][TZDriver]change cpu id = [5]
+<7>[134244.489878] [0m
+<5>[134244.490912]  (5)[202:hps_main]CPU6: shutdown
+<6>[134244.491821]  (5)[202:hps_main]psci: CPU6 killed.
+<7>[134244.492637]  (5)[202:hps_main][;34m[TEEI][TZDriver]cpu down success ***********************
+<7>[134244.492637] [0m
+<4>[134244.493342]  (5)[202:hps_main][HPS] (0x7F03)(0)<3>(0) action end (108)(200)(0) (0)(0)(0) (4)(4)(0)(0)(1)(0) (0)(108)(0)(0) (0)<2>(0)
+<7>[134244.816466] -(0)[0:swapper/0]CPU0: Booted secondary processor
+<6>[134244.816536] -(0)[0:swapper/0]Detected VIPT I-cache on CPU0
+<6>[134244.816599] -(0)[0:swapper/0]CPU0: found redistributor 0 @ffffff8000080000
+<6>[134244.816858] -(0)[0:swapper/0]CPU0: update cpu_capacity 316
+<4>[134244.819863]  (0)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_LL freq = 221000
+<3>[134244.819926]  (0)[202:hps_main][CPUHVFS] (0) [001b489c] cluster0 on, pause = 0x0, swctrl = 0x2ff0 (0xfcf00)
+<7>[134244.821581] -(1)[0:swapper/1]CPU1: Booted secondary processor
+<6>[134244.821592] -(1)[0:swapper/1]Detected VIPT I-cache on CPU1
+<6>[134244.821604] -(1)[0:swapper/1]CPU1: found redistributor 1 @ffffff80000a0000
+<6>[134244.821702] -(1)[0:swapper/1]CPU1: update cpu_capacity 316
+<3>[134244.822059] -(2)[0:swapper/2]AEE_MONITOR_SET[status]: 0x1
+<7>[134244.823231] -(2)[0:swapper/2]CPU2: Booted secondary processor
+<6>[134244.823251] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+<6>[134244.823268] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+<6>[134244.823385] -(2)[0:swapper/2]CPU2: update cpu_capacity 316
+<7>[134244.825060] -(6)[0:swapper/6]CPU6: Booted secondary processor
+<6>[134244.825083] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+<6>[134244.825102] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+<6>[134244.825226] -(6)[0:swapper/6]CPU6: update cpu_capacity 432
+<7>[134244.826803] -(7)[0:swapper/7]CPU7: Booted secondary processor
+<6>[134244.826823] -(7)[0:swapper/7]Detected VIPT I-cache on CPU7
+<6>[134244.826843] -(7)[0:swapper/7]CPU7: found redistributor 103 @ffffff8000160000
+<6>[134244.826962] -(7)[0:swapper/7]CPU7: update cpu_capacity 432
+<4>[134244.828105]  (7)[202:hps_main][HPS] (0x7F00)(0)<2>(0) action end (200)(740)(0) (0)(1)(0) (4)(4)(0)(0)(1)(0) (0)(0)(740)(1) (3)<4>(0)
+<4>[134244.838021]  (4)[1434:PerfServiceMana][Power/PPM] (0x230)(16388)(1)[4L_LL]: (0)(0)(0)(4) (15)(0)(1)(4) (0)(0)(0)(0) 
+<4>[134244.838229]  (4)[1434:PerfServiceMana][Power/PPM] (0x230)(16388)(1)[4L_LL]: (0)(0)(0)(4) (0)(0)(1)(4) (0)(0)(0)(0) 
+<4>[134244.838789]  (0)[1434:PerfServiceMana][Power/PPM] (0x230)(16388)(1)[4L_LL]: (0)(0)(0)(4) (0)(0)(1)(4) (0)(0)(0)(2) 
+<4>[134244.839133]  (4)[1434:PerfServiceMana][Power/PPM] (0x230)(16388)(1)[4L_LL]: (0)(0)(0)(4) (0)(0)(1)(4) (0)(0)(2)(2) 
+<3>[134244.839154]  (4)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134244.839239]  (4)[1434:PerfServiceMana][Power/PPM] (0x230)(16388)(1)[4L_LL]: (0)(0)(0)(4) (0)(0)(4)(4) (0)(0)(2)(2) 
+<3>[134244.839246]  (4)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134244.839331]  (4)[1434:PerfServiceMana][Power/PPM] (0x230)(16388)(1)[4L_LL]: (0)(0)(4)(4) (0)(0)(4)(4) (0)(0)(2)(2) 
+<3>[134244.839337]  (4)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<3>[134244.839389]  (4)[1434:PerfServiceMana][VcoreFS_SPM]perform BW enable: 1, SPM_SRC2_MASK: 0x6000107
+<4>[134244.839398]  (4)[1434:PerfServiceMana][Power/PPM] sys boost by PERFSERV: req_freq = 0, target_boost_freq = 0
+<2>[134244.839429]  (4)[1434:PerfServiceMana][VcoreFS]1. request: 1, opp: 0
+<2>[134244.839437]  (4)[1434:PerfServiceMana][VcoreFS]2. request: 1, opp: 0 (4)[1434:PerfServiceMana][VcoreFS]3. request: 1, opp: 0
+<2>[134244.839450]  (4)[1434:PerfServiceMana][VcoreFS]kr opp: -1, 0, -1, -1, -1, -1, 
+<2>[134244.839456]  (4)[1434:PerfServiceMana][VcoreFS]kicker: 1, opp: 0, dvfs_opp: 0, curr_opp: 1
+<2>[134244.839481]  (4)[1434:PerfServiceMana][VcoreFS]opp: 0, vcore: 1000000(900000), fddr: 1600000(1270000) [O][O]
+<3>[134244.840028] -(4)[1434:PerfServiceMana][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 411(0)
+<5>[134244.840641]  (0)[202:hps_main]CPU2: shutdown
+<2>[134244.840693]  (4)[1434:PerfServiceMana][VcoreFS]opp: 0, faxi: 156000(136500) [O]
+<2>[134244.840729]  (4)[1434:PerfServiceMana][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<6>[134244.841469]  (0)[202:hps_main]psci: CPU2 killed.
+<4>[134244.842746]  (0)[202:hps_main][HPS] (0x7F03)(3)<4>(0) action end (653)(1100)(0) (0)(1)(0) (4)(4)(2)(0)(1)(0) (0)(653)(0)(0) (2)<4>(0)
+<4>[134244.864614]  (0)[324:surfaceflinger][OD] ddp_bypass_od
+<7>[134244.883385] -(2)[0:swapper/2]CPU2: Booted secondary processor
+<6>[134244.883406] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+<6>[134244.883424] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+<6>[134244.883552] -(2)[0:swapper/2]CPU2: update cpu_capacity 316
+<7>[134244.885001] -(3)[0:swapper/3]CPU3: Booted secondary processor
+<6>[134244.885023] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+<6>[134244.885042] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+<6>[134244.885164] -(3)[0:swapper/3]CPU3: update cpu_capacity 316
+<4>[134244.889271]  (5)[202:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+<7>[134244.889743] -(8)[0:swapper/8]CPU8: Booted secondary processor
+<6>[134244.889765] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+<6>[134244.889787] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+<6>[134244.889901] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+<4>[134244.891047]  (1)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 741000
+<3>[134244.891064]  (1)[202:hps_main][CPUHVFS] (0) [001b51b8] cluster2 on, pause = 0x0, swctrl = 0x2ff0 (0xfcf22)
+<7>[134244.892148] -(9)[0:swapper/9]CPU9: Booted secondary processor
+<6>[134244.892158] -(9)[0:swapper/9]Detected PIPT I-cache on CPU9
+<6>[134244.892167] -(9)[0:swapper/9]CPU9: found redistributor 201 @ffffff80001a0000
+<6>[134244.892247] -(9)[0:swapper/9]CPU9: update cpu_capacity 1024
+<4>[134244.892905]  (9)[202:hps_main][HPS] (0xFF03)(2)<4>(0) action end (434)(600)(0) (0)(0)(0) (4)(4)(2)(4)(4)(2) (0)(434)(0)(0) (4)<4>(2)
+<2>[134244.999801]  (6)[715:UICompThread_0][VcoreFS]1. request: 0, opp: 0
+<2>[134244.999818]  (6)[715:UICompThread_0][VcoreFS]2. request: 0, opp: 0 (6)[715:UICompThread_0][VcoreFS]3. request: 0, opp: 0
+<2>[134244.999836]  (6)[715:UICompThread_0][VcoreFS]kr opp: 0, 0, -1, -1, -1, -1, 
+<2>[134244.999842]  (6)[715:UICompThread_0][VcoreFS]kicker: 0, opp: 0, dvfs_opp: 0, curr_opp: 0
+<2>[134244.999861]  (6)[715:UICompThread_0][VcoreFS]opp: 0, vcore: 1000000(1000000), fddr: 1600000(1600000) [O][O]
+<3>[134244.999881] -(6)[715:UICompThread_0][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 0(0)
+<2>[134244.999986]  (6)[715:UICompThread_0][VcoreFS]opp: 0, faxi: 156000(156000) [O]
+<2>[134245.000000]  (6)[715:UICompThread_0][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<2>[134245.026104]  (8)[61:dlpt_notify_thr][PBM] [ma_to_mw] 3679(mV) * 4901(mA) = 18030(mW)
+<3>[134245.026123]  (8)[61:dlpt_notify_thr][DLPT_final] 4901,0,8,8,1,7000
+<7>[134245.059978]  (8)[4218:Binder_E][ALS/PS] ps_set_delay (200)
+<7>[134245.059987]  (8)[4218:Binder_E]<ALS/PS>  ps_delay 200000000 ns
+<7>[134245.060066]  (8)[4218:Binder_E]<ALS/PS> ps_store_batch buf=0
+<7>[134245.060070]  (8)[4218:Binder_E]<ALS/PS>  ps_store_batch not supported
+<7>[134245.060074]  (8)[4218:Binder_E]<ALS/PS>  ps_store_batch done: 0
+<3>[134245.060185]  (8)[4218:Binder_E]<BATCHDEV> batch_store_batch 494 : batch_store_delay param: handle 7, flag:0 samplingPeriodNs:200000000, maxBatchReportLatencyNs: 0
+<3>[134245.060579]  (8)[4218:Binder_E]<BATCHDEV> batch_store_active 345 :  batch_store_active handle=7 ,en=1
+<7>[134245.060721]  (8)[4218:Binder_E]<ALS/PS> ps_store_active buf=1
+<7>[134245.060725]  (8)[4218:Binder_E]<ALS/PS> PS enable data
+<7>[134245.060729]  (8)[4218:Binder_E][ALS/PS] obj_ipi_data als enable value = 1
+<7>[134245.060927]  (8)[4218:Binder_E]<ALS/PS> ps real enable
+<7>[134245.060931]  (8)[4218:Binder_E]<ALS/PS>  ps_store_active done
+<3>[134245.062909]  (8)[2460:Binder_D]<BATCHDEV> batch_store_batch 494 : batch_store_delay param: handle 0, flag:0 samplingPeriodNs:20000000, maxBatchReportLatencyNs: 0
+<3>[134245.063272]  (8)[2460:Binder_D]<BATCHDEV> batch_store_active 345 :  batch_store_active handle=0 ,en=1
+<4>[134245.203325]  (9)[1434:PerfServiceMana][Power/PPM] (0x230)(10901)(1)[4L_LL]: (0)(0)(4)(4) (0)(0)(4)(4) (0)(0)(0)(2) 
+<4>[134245.203429]  (9)[1434:PerfServiceMana][Power/PPM] (0x230)(10901)(1)[4L_LL]->[L_ONLY]: (0)(0)(0)(0) (0)(0)(4)(4) (0)(0)(0)(0) 
+<3>[134245.203436]  (9)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134245.203527]  (9)[1434:PerfServiceMana][Power/PPM] (0x230)(10901)(1)[L_ONLY]: (0)(0)(0)(0) (0)(0)(1)(4) (0)(0)(0)(0) 
+<3>[134245.203532]  (9)[1434:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+<4>[134245.203664]  (9)[1434:PerfServiceMana][Power/PPM] (0x230)(10901)(1)[L_ONLY]: (0)(0)(0)(0) (8)(0)(1)(4) (0)(0)(0)(0) 
+<3>[134245.203766]  (9)[1434:PerfServiceMana][VcoreFS_SPM]perform BW enable: 1, SPM_SRC2_MASK: 0x6000107
+<4>[134245.203772]  (9)[1434:PerfServiceMana][Power/PPM] sys boost by PERFSERV: req_freq = 0, target_boost_freq = 0
+<2>[134245.203798]  (9)[1434:PerfServiceMana][VcoreFS]1. request: 1, opp: -1
+<2>[134245.203803]  (9)[1434:PerfServiceMana][VcoreFS]2. request: 1, opp: -1 (9)[1434:PerfServiceMana][VcoreFS]3. request: 1, opp: -1
+<2>[134245.203819]  (9)[1434:PerfServiceMana][VcoreFS]kr opp: 0, -1, -1, -1, -1, -1, 
+<2>[134245.203823]  (9)[1434:PerfServiceMana][VcoreFS]kicker: 1, opp: -1, dvfs_opp: 0, curr_opp: 0
+<2>[134245.203835]  (9)[1434:PerfServiceMana][VcoreFS]opp: 0, vcore: 1000000(1000000), fddr: 1600000(1600000) [O][O]
+<3>[134245.203848] -(9)[1434:PerfServiceMana][VcoreFS_SPM]req: 0x1, target: 0x1800000, t_dvfs: 0(0)
+<2>[134245.203950]  (9)[1434:PerfServiceMana][VcoreFS]opp: 0, faxi: 156000(156000) [O]
+<2>[134245.203957]  (9)[1434:PerfServiceMana][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<5>[134245.204556]  (5)[202:hps_main]CPU9: shutdown
+<6>[134245.205753]  (5)[202:hps_main]psci: CPU9 killed.
+<4>[134245.207236]  (5)[202:hps_main][HPS] [Info]Condition break!!
+<4>[134245.207261]  (5)[202:hps_main][HPS] (0xFF03)(4)<4>(2) action break!! (39)(300)(0) (0)(0)(0) (4)(4)(2)(4)(4)(0)-->(0)(4)(0)(0)(1)(0) (0)(39)(0)(0) (4)<4>(0)
+<2>[134245.219242]  (4)[5915:kworker/u20:7][VcoreFS]1. request: 0, opp: -1
+<2>[134245.219257]  (4)[5915:kworker/u20:7][VcoreFS]2. request: 0, opp: -1 (4)[5915:kworker/u20:7][VcoreFS]3. request: 0, opp: -1
+<2>[134245.219272]  (4)[5915:kworker/u20:7][VcoreFS]kr opp: -1, -1, -1, -1, -1, -1, 
+<2>[134245.219279]  (4)[5915:kworker/u20:7][VcoreFS]kicker: 0, opp: -1, dvfs_opp: 1, curr_opp: 0
+<2>[134245.219384]  (4)[5915:kworker/u20:7][VcoreFS]opp: 1, faxi: 136500(156000) [O]
+<2>[134245.219440]  (4)[5915:kworker/u20:7][VcoreFS]opp: 1, vcore: 900000(1000000), fddr: 1270000(1600000) [O][O]
+<3>[134245.219457] -(4)[5915:kworker/u20:7][VcoreFS_SPM]req: 0x0, target: 0x1000000
+<2>[134245.219464]  (4)[5915:kworker/u20:7][VcoreFS]kick_dvfs_by_opp_index done, r: 0
+<5>[134245.248506]  (8)[202:hps_main]CPU3: shutdown
+<6>[134245.249499]  (8)[202:hps_main]psci: CPU3 killed.
+<5>[134245.251404]  (8)[202:hps_main]CPU2: shutdown
+<6>[134245.252426]  (8)[202:hps_main]psci: CPU2 killed.
+<4>[134245.253703]  (8)[28288:kworker/8:2][ALS/PS]ps_data_report! 1, 2
+<5>[134245.254399]  (8)[202:hps_main]CPU1: shutdown
+<6>[134245.255579]  (8)[202:hps_main]psci: CPU1 killed.
+<3>[134245.256961]  (8)[202:hps_main][CPUHVFS] (0) [001b808d] cluster0 off, pause = 0x0, swctrl = 0x5ff0 (0xfcfff)
+<5>[134245.259461]  (8)[202:hps_main]CPU0: shutdown
+<6>[134245.261541]  (8)[202:hps_main]psci: CPU0 killed.
+<5>[134245.263434]  (5)[202:hps_main]CPU7: shutdown
+<6>[134245.264390]  (5)[202:hps_main]psci: CPU7 killed.
+<5>[134245.266785]  (8)[202:hps_main]CPU6: shutdown
+<6>[134245.267761]  (8)[202:hps_main]psci: CPU6 killed.
+<3>[134245.268705]  (8)[202:hps_main][CPUHVFS] (0) [001b820e] cluster2 off, pause = 0x0, swctrl = 0x5ff0 (0xfcfff)
+<5>[134245.269567]  (4)[202:hps_main]CPU8: shutdown
+<4>[134245.270494]  (4)[202:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+<6>[134245.271143]  (4)[202:hps_main]psci: CPU8 killed.
+<4>[134245.273054]  (4)[202:hps_main][HPS] (0xFF03)(4)<4>(1) action end (88)(100)(0) (0)(0)(0) (0)(4)(0)(0)(1)(0) (0)(88)(0)(0) (0)<2>(0)
+<4>[134245.273072]  (4)[202:hps_main][HPS] (0xFF03)(4)<4>(1) HRT_BT_DBG (88)(100)(0) (0)(0)(0) (0)(4)(0)(0)(1)(0) (0)(88)(0)(0) (0)<2>(0)
+<4>[134245.323019]  (5)[1434:PerfServiceMana][Power/PPM] (0x230)(13884)(1)[L_ONLY]: (0)(0)(0)(0) (8)(0)(3)(4) (0)(0)(0)(0) 
+<7>[134245.323672] -(6)[0:swapper/6]CPU6: Booted secondary processor
+<6>[134245.323690] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+<6>[134245.323707] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+<6>[134245.323829] -(6)[0:swapper/6]CPU6: update cpu_capacity 432
+<4>[134245.324720]  (6)[202:hps_main][HPS] (0xFF03)(0)<2>(0) action end (32)(300)(0) (0)(0)(0) (0)(4)(0)(0)(3)(0) (0)(32)(0)(0) (0)<3>(0)
+<4>[134245.451674]  (4)[5928:kworker/4:0][ALS/PS]ps_data_report! 1, 2
+<4>[134245.507692]  (6)[1434:PerfServiceMana][Power/PPM] (0x230)(13714)(1)[L_ONLY]: (0)(0)(0)(0) (8)(0)(1)(4) (0)(0)(0)(0) 
+<5>[134245.509653]  (4)[202:hps_main]CPU6: shutdown
+<6>[134245.510520]  (4)[202:hps_main]psci: CPU6 killed.
+<4>[134245.512089]  (4)[202:hps_main][HPS] (0xFF03)(0)<3>(0) action end (134)(700)(0) (0)(0)(0) (0)(4)(0)(0)(1)(0) (0)(134)(0)(0) (0)<2>(0)
+<7>[134245.592385]  (4)[202:hps_main][;34m[TEEI][TZDriver]cpu down prepare ************************
+<7>[134245.592385] [0m[;34m[TEEI][TZDriver]current on line cpu [4]
+<7>[134245.592385] [0m[;34m[TEEI][TZDriver]current on line cpu [5]
+<7>[134245.592385] [0m[;34m[TEEI][TZDriver][tz_driver_cpu_callback][368]brefore cpumask set cpu
+<7>[134245.592385] [0m[;34m[TEEI][TZDriver][tz_driver_cpu_callback][374]after cpumask set cpu
+<7>[134245.592385] [0m[;34m[TEEI][TZDriver]current cpu id  
+<7>[134245.592385] [0m[;34m[TEEI][TZDriver]change cpu id = [4]
+<7>[134245.592385] [0m
+<5>[134245.593377]  (4)[202:hps_main]CPU5: shutdown
+<6>[134245.594325]  (4)[202:hps_main]psci: CPU5 killed.
+<7>[134245.595491]  (4)[202:hps_main][;34m[TEEI][TZDriver]cpu down success ***********************
+<7>[134245.595491] [0m
+<4>[134245.596838]  (4)[202:hps_main][HPS] (0xFF03)(0)<2>(0) action end (7)(100)(0) (0)(0)(0) (0)(4)(0)(0)(1)(0) (0)(7)(0)(0) (0)<1>(0)
+<4>[134245.651638]  (4)[5928:kworker/4:0][ALS/PS]ps_data_report! 1, 2
+<7>[134245.701621]  (4)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_L:(8,0): freq=1092000(1092000), volt =94000(94000), on=1, cur=1846000, cci(923000,611000)
+<7>[134245.741682]  (4)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_L:(8,0): freq=1846000(1846000), volt =109000(109000), on=1, cur=1092000, cci(611000,923000)
+<7>[134245.757974] -(5)[0:swapper/5]CPU5: Booted secondary processor
+<6>[134245.757996] -(5)[0:swapper/5]Detected VIPT I-cache on CPU5
+<6>[134245.758013] -(5)[0:swapper/5]CPU5: found redistributor 101 @ffffff8000120000
+<6>[134245.758133] -(5)[0:swapper/5]CPU5: update cpu_capacity 432
+<7>[134245.759544] -(6)[0:swapper/6]CPU6: Booted secondary processor
+<6>[134245.759569] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+<6>[134245.759586] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+<6>[134245.759700] -(6)[0:swapper/6]CPU6: update cpu_capacity 432
+<7>[134245.761191] -(7)[0:swapper/7]CPU7: Booted secondary processor
+<6>[134245.761213] -(7)[0:swapper/7]Detected VIPT I-cache on CPU7
+<6>[134245.761233] -(7)[0:swapper/7]CPU7: found redistributor 103 @ffffff8000160000
+<6>[134245.761358] -(7)[0:swapper/7]CPU7: update cpu_capacity 432
+<4>[134245.762436]  (4)[202:hps_main][HPS] (0xFF00)(0)<1>(0) action end (100)(700)(0) (0)(0)(0) (0)(4)(0)(0)(1)(0) (0)(0)(700)(1) (0)<4>(0)
+<5>[134245.803698]  (4)[202:hps_main]CPU7: shutdown
+<6>[134245.804616]  (4)[202:hps_main]psci: CPU7 killed.
+<5>[134245.806866]  (4)[202:hps_main]CPU6: shutdown
+<6>[134245.807785]  (4)[202:hps_main]psci: CPU6 killed.
+<4>[134245.809059]  (4)[202:hps_main][HPS] (0xFF03)(0)<4>(0) action end (104)(163)(0) (0)(0)(0) (0)(4)(0)(0)(1)(0) (0)(104)(0)(0) (0)<2>(0)
+<3>[134245.822637]  (4)[202:hps_main]AEE_MONITOR_SET[status]: 0x1
+<5>[134245.850220]  (4)[202:hps_main]CPU5: shutdown
+<6>[134245.851310]  (4)[202:hps_main]psci: CPU5 killed.
+<4>[134245.852894]  (4)[202:hps_main][HPS] (0xFF03)(0)<2>(0) action end (74)(103)(0) (0)(0)(0) (0)(4)(0)(0)(1)(0) (0)(74)(0)(0) (0)<1>(0)
+<4>[134245.853380]  (4)[5928:kworker/4:0][ALS/PS]ps_data_report! 1, 2
+<7>[134246.011669]  (4)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_L:(8,0): freq=1092000(1092000), volt =94000(94000), on=1, cur=1846000, cci(923000,611000)
+<7>[134246.051708]  (4)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_L:(8,0): freq=1846000(1846000), volt =109000(109000), on=1, cur=1092000, cci(611000,923000)
+<4>[134246.052392]  (4)[5928:kworker/4:0][ALS/PS]ps_data_report! 1, 2
+<7>[134246.201605]  (4)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_L:(8,0): freq=1092000(1092000), volt =94000(94000), on=1, cur=1846000, cci(923000,611000)
+<4>[134246.251825]  (4)[5928:kworker/4:0][ALS/PS]ps_data_report! 1, 2
+<4>[134246.334211]  (4)[202:hps_main][Power/PPM] (0x210)(15177)(0)[L_ONLY]->[LL_ONLY]: (5)(0)(1)(4) (8)(0)(0)(0) (0)(0)(0)(0) 
+<3>[134246.334240]  (4)[202:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+<7>[134246.336576] -(0)[0:swapper/0]CPU0: Booted secondary processor
+<6>[134246.336642] -(0)[0:swapper/0]Detected VIPT I-cache on CPU0
+<6>[134246.336705] -(0)[0:swapper/0]CPU0: found redistributor 0 @ffffff8000080000
+<6>[134246.336999] -(0)[0:swapper/0]CPU0: update cpu_capacity 316
+<4>[134246.338106]  (4)[202:hps_main][Power/cpufreq] MT_CPU_DVFS_LL freq = 221000
+<3>[134246.338169]  (4)[202:hps_main][CPUHVFS] (0) [001c0af2] cluster0 on, pause = 0x0, swctrl = 0x2ff0 (0x9c000)
+<7>[134246.338728]  (4)[202:hps_main][;34m[TEEI][TZDriver]cpu down prepare ************************
+<7>[134246.338728] [0m[;34m[TEEI][TZDriver]current on line cpu [0]
+<7>[134246.338728] [0m[;34m[TEEI][TZDriver]current on line cpu [4]
+<7>[134246.338728] [0m[;34m[TEEI][TZDriver][tz_driver_cpu_callback][368]brefore cpumask set cpu
+<7>[134246.338728] [0m[;34m[TEEI][TZDriver][tz_driver_cpu_callback][374]after cpumask set cpu
+<7>[134246.338728] [0m[;34m[TEEI][TZDriver]current cpu id  
+<7>[134246.338728] [0m[;34m[TEEI][TZDriver]change cpu id = [0]
+<7>[134246.338728] [0m
+<3>[134246.338796]  (4)[202:hps_main][CPUHVFS] (0) [001c0b07] cluster1 off, pause = 0x0, swctrl = 0x57f0 (0x9c077)
+<4>[134246.339360]  (0)[95:pbm][Power/PPM] (0x210)(15498)(0)[LL_ONLY]: (15)(0)(1)(4) (8)(0)(0)(0) (0)(0)(0)(0) 
+<5>[134246.341118]  (0)[202:hps_main]CPU4: shutdown
+<6>[134246.343014]  (0)[202:hps_main]psci: CPU4 killed.
+<7>[134246.345155]  (0)[202:hps_main][;34m[TEEI][TZDriver]cpu down success ***********************
+<7>[134246.345155] [0m
+<4>[134246.345975]  (0)[202:hps_main][HPS] (0xF001)(0)<1>(0) action end (10)(100)(0) (0)(0)(0) (4)(0)(0)(1)(0)(0) (0)(0)(0)(0) <1>(0)(0)
+<7>[134246.431753]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(15,0): freq=221000(221000), volt =78000(78000), on=1, cur=715000, cci(481000,169000)
+<7>[134246.451937]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(15,0): freq=897000(897000), volt =93000(93000), on=1, cur=221000, cci(169000,533000)
+<4>[134246.453152]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134246.507164] -(1)[0:swapper/1]CPU1: Booted secondary processor
+<6>[134246.507189] -(1)[0:swapper/1]Detected VIPT I-cache on CPU1
+<6>[134246.507210] -(1)[0:swapper/1]CPU1: found redistributor 1 @ffffff80000a0000
+<6>[134246.507335] -(1)[0:swapper/1]CPU1: update cpu_capacity 316
+<4>[134246.508358]  (1)[202:hps_main][HPS] (0xFF00)<1>(0)(0) action end (100)(200)(0) (0)(0)(0) (4)(0)(0)(1)(0)(0) (0)(0)(200)(1) <2>(0)(0)
+<7>[134246.561667]  (1)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(15,0): freq=1391000(1391000), volt =107000(107000), on=2, cur=1222000, cci(819000,923000)
+<5>[134246.629814]  (0)[202:hps_main]CPU1: shutdown
+<6>[134246.630778]  (0)[202:hps_main]psci: CPU1 killed.
+<4>[134246.632273]  (0)[202:hps_main][HPS] (0xFF03)<2>(0)(0) action end (46)(100)(0) (0)(0)(0) (4)(0)(0)(1)(0)(0) (0)(46)(0)(0) <1>(0)(0)
+<4>[134246.651746]  (0)[27697:kworker/0:0][ALS/PS]ps_data_report! 1, 2
+<7>[134246.751620]  (0)[62:cfinteractive][name:mt_cpufreq&][Power/cpufreq] @_cpufreq_set_locked(), MT_CPU_DVFS_LL:(15,0): freq=221000(221000), volt =78000(78000), on=1, cur=1391000, cci(923000,169000)
