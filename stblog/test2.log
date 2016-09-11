@@ -1,0 +1,66 @@
+
+09-08 02:32:24.819  1468  1468 D PanelView: PanelView---setExpandedHeightInternal---h = 1159.6908 , mHeightAnimator == null is false
+09-08 02:32:24.819  1468  1468 D PanelView: setExpandedHeightInternal---mExpandedHeight = 1159.6908
+09-08 02:32:24.819  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated--- mQsExpanded  is false
+09-08 02:32:24.819  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated---mTwoFingerQsExpand = false , mQsExpanded = false , !mQsTracking = true , mQsExpansionAnimator == null is true , !mQsExpansionFromOverscroll = true
+09-08 02:32:24.819  1468  1468 D PanelView: NotificationPanelView---updateHeaderShade()---mQsExpansionHeight = 585.0
+09-08 02:32:24.819  1468  1468 D PanelView: NotificationPanelView---setQsTranslation !mHeaderAnimatingIn = true , !mKeyguardShowing = true
+09-08 02:32:24.820  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_behind color:0
+09-08 02:32:24.820  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_in_front color:0
+09-08 02:32:24.820  1468  1468 D BarTransitions: draw targetColor = 0
+09-08 02:32:24.836  1468  1468 D PanelView: PanelView---setExpandedHeightInternal---h = 1077.071 , mHeightAnimator == null is false
+09-08 02:32:24.836  1468  1468 D PanelView: setExpandedHeightInternal---mExpandedHeight = 1077.071
+09-08 02:32:24.836  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated--- mQsExpanded  is false
+09-08 02:32:24.836  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated---mTwoFingerQsExpand = false , mQsExpanded = false , !mQsTracking = true , mQsExpansionAnimator == null is true , !mQsExpansionFromOverscroll = true
+09-08 02:32:24.836  1468  1468 D PanelView: NotificationPanelView---updateHeaderShade()---mQsExpansionHeight = 585.0
+09-08 02:32:24.836  1468  1468 D PanelView: NotificationPanelView---setQsTranslation !mHeaderAnimatingIn = true , !mKeyguardShowing = true
+09-08 02:32:24.837  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_behind color:0
+09-08 02:32:24.837  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_in_front color:0
+09-08 02:32:24.837  1468  1468 D BarTransitions: draw targetColor = 0
+09-08 02:32:24.847  1109 29481 D AudioTrack: AudioTrackThread::pauseInternal: ns = 88363961
+09-08 02:32:24.847  1109  4765 D AudioTrack: AudioTrackThread::pauseInternal: ns = 88363961
+09-08 02:32:24.853  1468  1468 D PanelView: PanelView---setExpandedHeightInternal---h = 989.0785 , mHeightAnimator == null is false
+09-08 02:32:24.853  1468  1468 D PanelView: setExpandedHeightInternal---mExpandedHeight = 989.0785
+09-08 02:32:24.853  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated--- mQsExpanded  is false
+09-08 02:32:24.853  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated---mTwoFingerQsExpand = false , mQsExpanded = false , !mQsTracking = true , mQsExpansionAnimator == null is true , !mQsExpansionFromOverscroll = true
+09-08 02:32:24.853  1468  1468 D PanelView: NotificationPanelView---updateHeaderShade()---mQsExpansionHeight = 585.0
+09-08 02:32:24.853  1468  1468 D PanelView: NotificationPanelView---setQsTranslation !mHeaderAnimatingIn = true , !mKeyguardShowing = true
+09-08 02:32:24.854  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_behind color:0
+09-08 02:32:24.854  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_in_front color:0
+09-08 02:32:24.854  1468  1468 D BarTransitions: draw targetColor = 0
+09-08 02:32:24.870   324   324 I BufferQueueConsumer: [FastStarting](this:0x7f78608400,id:1091,api:2,p:1109,c:-1) disconnect(C)
+09-08 02:32:24.870  1468  1468 D PanelView: PanelView---setExpandedHeightInternal---h = 897.262 , mHeightAnimator == null is false
+09-08 02:32:24.870  1468  1468 D PanelView: setExpandedHeightInternal---mExpandedHeight = 897.262
+09-08 02:32:24.870  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated--- mQsExpanded  is false
+09-08 02:32:24.870  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated---mTwoFingerQsExpand = false , mQsExpanded = false , !mQsTracking = true , mQsExpansionAnimator == null is true , !mQsExpansionFromOverscroll = true
+09-08 02:32:24.870  1468  1468 D PanelView: NotificationPanelView---updateHeaderShade()---mQsExpansionHeight = 585.0
+09-08 02:32:24.870  1468  1468 D PanelView: NotificationPanelView---setQsTranslation !mHeaderAnimatingIn = true , !mKeyguardShowing = true
+09-08 02:32:24.871   324   324 D GraphicBuffer: free, handle(0x7f8195e180) (w:1080 h:1920 s:1088 f:0x1 u:0x000933)
+09-08 02:32:24.871   324   324 I [MALI][Gralloc]: [-]hnd(0x7f8195e180), client(29), share_fd(38)
+09-08 02:32:24.871  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_behind color:0
+09-08 02:32:24.871  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_in_front color:0
+09-08 02:32:24.871  1468  1468 D BarTransitions: draw targetColor = 0
+09-08 02:32:24.887  1468  1468 D PanelView: PanelView---setExpandedHeightInternal---h = 799.11835 , mHeightAnimator == null is false
+09-08 02:32:24.887  1468  1468 D PanelView: setExpandedHeightInternal---mExpandedHeight = 799.11835
+09-08 02:32:24.887  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated--- mQsExpanded  is false
+09-08 02:32:24.887  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated---mTwoFingerQsExpand = false , mQsExpanded = false , !mQsTracking = true , mQsExpansionAnimator == null is true , !mQsExpansionFromOverscroll = true
+09-08 02:32:24.887  1468  1468 D PanelView: NotificationPanelView---updateHeaderShade()---mQsExpansionHeight = 585.0
+09-08 02:32:24.887  1468  1468 D PanelView: NotificationPanelView---setQsTranslation !mHeaderAnimatingIn = true , !mKeyguardShowing = true
+09-08 02:32:24.888  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_behind color:0
+09-08 02:32:24.888  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_in_front color:0
+09-08 02:32:24.888  1468  1468 D BarTransitions: draw targetColor = 0
+09-08 02:32:24.898   362  1107 V AudioPolicyService: AudioCommandThread() waking up
+09-08 02:32:24.898   362  1107 V AudioPolicyService: AudioCommandThread() processing release audio patch
+09-08 02:32:24.903  1468  1468 D PanelView: PanelView---setExpandedHeightInternal---h = 696.73584 , mHeightAnimator == null is false
+09-08 02:32:24.903  1468  1468 D PanelView: setExpandedHeightInternal---mExpandedHeight = 696.73584
+09-08 02:32:24.904  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated--- mQsExpanded  is false
+09-08 02:32:24.904  1468  1468 D PanelView: NotificationPanelView---onHeightUpdated---mTwoFingerQsExpand = false , mQsExpanded = false , !mQsTracking = true , mQsExpansionAnimator == null is true , !mQsExpansionFromOverscroll = true
+09-08 02:32:24.904  1468  1468 D PanelView: NotificationPanelView---updateHeaderShade()---mQsExpansionHeight = 585.0
+09-08 02:32:24.904  1468  1468 D PanelView: NotificationPanelView---setQsTranslation !mHeaderAnimatingIn = true , !mKeyguardShowing = true
+09-08 02:32:24.905  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_behind color:0
+09-08 02:32:24.905  1468  1468 D kg_ScrimView: setScrimColor id:com.android.systemui:id/scrim_in_front color:0
+09-08 02:32:24.905  1468  1468 D BarTransitions: draw targetColor = 0
+09-08 02:32:24.910   362  1130 D AudioALSAHardware: -releaseAudioPatch handle [0x2e5]
+09-08 02:32:24.910   362  1130 D AudioALSAHardware: +routing releaseAudioPatch Mixer->2
+09-08 02:32:24.910   362  1130 D AudioALSAHardware: Still have AudioPatches routing to outputDevice, Don't routing null Size 1
+09-08 02:32:24.910   362  1130 D AudioALSAHardware: handlecheck releaseAudioPatch remove handle [2e5] OK
