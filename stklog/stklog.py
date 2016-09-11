@@ -55,17 +55,10 @@ class KlogStatist():
             content = self.r2.sub("_HEX_", content)
             content = self.r3.sub("_NUM_", content)
 
-            if level in self._levcount:
-                self._levcount[level] += 1
-            else:
-                self._levcount[level] = 1
+            self._levcount[level] = self._levcount.get(level, 0)  + 1
 
             key = (level, content)
-            if key in self._scount:
-                self._scount[key] += 1
-            else:
-                self._scount[key] = 1
-
+            self._scount[key] = self._scount.get(key, 0) + 1
 
 
     def output(self, maxline, threshold, fobj):

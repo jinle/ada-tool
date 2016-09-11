@@ -55,21 +55,10 @@ class BtagStatist():
             self._account += 1
 
             # print(r.groups())
-            if level in self._levcount:
-                self._levcount[level] += 1
-            else:
-                self._levcount[level] = 1
-
-            if tag in self._tagcount:
-                self._tagcount[tag] += 1
-            else:
-                self._tagcount[tag] = 1
-
+            self._levcount[level] = self._levcount.get(level, 0) + 1
+            self._tagcount[tag] = self._tagcount.get(tag, 0) + 1
             lev_tag = (level, tag)
-            if lev_tag in self._levtag_count:
-                self._levtag_count[lev_tag] += 1
-            else:
-                self._levtag_count[lev_tag] = 1
+            self._levtag_count[lev_tag] = self._levtag_count.get(lev_tag, 0) + 1
 
     def output(self, maxline, threshold, fobj):
         stdout_bak = sys.stdout
